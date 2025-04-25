@@ -1,0 +1,129 @@
+objective,p0,p1,p2,p3,p4,p5,p6,p7,p8
+15.6025065,8,100,#pragma clang unrolling full,#pragma omp parallel for,128,2,20,compact,cores
+15.521188,8,80, , ,4,2,160,compact,cores
+15.5319015,8,20, , ,2,64,100,scatter,threads
+15.534697,4,20, , ,32,64,40,compact,cores
+15.603575500000002,8,80, , ,4,2,160,compact,threads
+15.6119105,6,64, , ,4,2,160,compact,cores
+15.6050595,6,80, , ,4,2,160,balanced,cores
+15.4861785,8,80, ,#pragma omp parallel for,8,2,100,compact,cores
+15.6331945,8,80,#pragma clang unrolling full,#pragma omp parallel for,8,2,100,compact,cores
+15.5097625,7,80, ,#pragma omp parallel for,8,2,10,compact,cores
+15.582675,8,80, ,#pragma omp parallel for,32,2,100,compact,sockets
+15.551414000000001,8,80, ,#pragma omp parallel for,8,2,100,compact,sockets
+15.6419285,8,80, ,#pragma omp parallel for,8,96,100,compact,cores
+15.6557315,8,80, ,#pragma omp parallel for,8,96,100,compact,sockets
+15.5359775,8,160, ,#pragma omp parallel for,8,2,100,compact,cores
+15.546132,8,80, ,#pragma omp parallel for,8,64,100,scatter,cores
+15.572105,7,80, ,#pragma omp parallel for,128,2,100,compact,cores
+15.5547725,8,80, , ,16,8,200,compact,threads
+15.560269,8,80, ,#pragma omp parallel for,8,2,100,compact,threads
+15.571465499999999,8,80, ,#pragma omp parallel for,8,2,100,balanced,cores
+15.5598075,8,80, ,#pragma omp parallel for,16,2,100,compact,cores
+15.576793,8,80, ,#pragma omp parallel for,8,2,80,compact,cores
+15.433565000000002,5,80, ,#pragma omp parallel for,8,2,100,compact,cores
+15.501928,8,80, , ,8,2,100,compact,cores
+15.567755,8,40, ,#pragma omp parallel for,8,2,100,compact,cores
+15.562232000000002,7,160, ,#pragma omp parallel for,8,2,100,compact,cores
+15.6315625,5,80, ,#pragma omp parallel for,8,2,100,compact,sockets
+15.573416,5,40, ,#pragma omp parallel for,8,2,128,compact,cores
+15.4137175,5,80, ,#pragma omp parallel for,16,32,100,compact,cores
+15.591015500000001,5,128, ,#pragma omp parallel for,16,32,100,compact,sockets
+15.6063075,5,128, , ,16,32,160,compact,cores
+15.580034000000001,5,80, ,#pragma omp parallel for,16,32,160,compact,cores
+15.548749,5,80, ,#pragma omp parallel for,16,32,100,compact,threads
+15.516665,5,40, ,#pragma omp parallel for,16,32,128,balanced,cores
+15.530266000000001,5,80, ,#pragma omp parallel for,16,8,100,balanced,cores
+15.483636,5,10, ,#pragma omp parallel for,96,32,100,compact,cores
+15.483834,7,80, ,#pragma omp parallel for,16,32,100,compact,cores
+15.7590285,5,80,#pragma clang unrolling full,#pragma omp parallel for,16,32,100,compact,cores
+15.559056,5,80, ,#pragma omp parallel for,2,32,100,compact,cores
+15.558808500000001,5,80, ,#pragma omp parallel for,16,32,100,compact,sockets
+15.436408499999999,4,80, ,#pragma omp parallel for,64,32,100,compact,cores
+15.5198,5,80,#pragma clang unrolling full,#pragma omp parallel for,256,32,100,compact,cores
+15.680508,5,80, ,#pragma omp parallel for,16,32,200,compact,threads
+15.659098499999999,5,80, ,#pragma omp parallel for,16,64,100,compact,cores
+15.5049745,5,80, ,#pragma omp parallel for,16,32,100,balanced,cores
+15.624208,5,80, , ,16,8,100,compact,cores
+15.529193500000002,5,10,#pragma clang unrolling full,#pragma omp parallel for,16,32,100,compact,cores
+15.484621,4,80, ,#pragma omp parallel for,16,32,100,compact,cores
+15.4873835,5,80,#pragma clang unrolling full,#pragma omp parallel for,16,2,100,compact,cores
+15.509442499999999,5,80, ,#pragma omp parallel for,2,32,20,compact,cores
+15.526066499999999,5,80,#pragma clang unrolling full,#pragma omp parallel for,16,32,100,scatter,cores
+15.5421975,5,80, , ,16,64,100,compact,cores
+15.4996285,5,80, ,#pragma omp parallel for,16,32,80,compact,threads
+15.56047,8,80, ,#pragma omp parallel for,16,32,100,compact,cores
+15.5602545,8,80, ,#pragma omp parallel for,2,32,100,balanced,threads
+15.588365,5,80,#pragma clang unrolling full,#pragma omp parallel for,4,32,200,compact,cores
+15.566831,5,80, ,#pragma omp parallel for,16,16,100,compact,cores
+15.6111745,5,80,#pragma clang unrolling full,#pragma omp parallel for,16,16,100,compact,cores
+15.483426999999999,7,80,#pragma clang unrolling full, ,16,32,100,compact,cores
+15.46387,5,80, ,#pragma omp parallel for,16,256,100,compact,cores
+15.559476499999999,5,64, ,#pragma omp parallel for,16,32,20,compact,cores
+15.588848500000001,5,80, ,#pragma omp parallel for,16,96,100,compact,cores
+15.554753000000002,5,80, ,#pragma omp parallel for,16,32,128,scatter,cores
+15.534084,5,80, , ,16,2,100,compact,cores
+15.6896805,5,80, ,#pragma omp parallel for,16,32,100,scatter,cores
+15.481466000000001,5,80,#pragma clang unrolling full, ,16,32,100,balanced,cores
+15.49726,5,80, ,#pragma omp parallel for,8,32,100,balanced,cores
+15.5012715,5,160,#pragma clang unrolling full,#pragma omp parallel for,16,32,100,compact,cores
+15.5094295,5,80, , ,16,32,100,compact,cores
+15.646032,5,80, ,#pragma omp parallel for,32,32,100,compact,cores
+15.527485500000001,5,10, , ,16,32,100,compact,cores
+15.5313055,5,40, ,#pragma omp parallel for,16,32,100,compact,cores
+15.598489,5,80, ,#pragma omp parallel for,16,32,40,compact,cores
+15.587382,5,200, ,#pragma omp parallel for,2,32,100,compact,cores
+15.5247735,5,128, ,#pragma omp parallel for,16,32,100,compact,cores
+15.5785365,5,200, ,#pragma omp parallel for,16,32,100,compact,cores
+15.577683,5,160, ,#pragma omp parallel for,16,32,100,compact,cores
+15.630622500000001,5,80, ,#pragma omp parallel for,16,32,40,compact,threads
+15.535730000000001,7,20,#pragma clang unrolling full,#pragma omp parallel for,16,16,100,compact,cores
+15.562205,5,128, ,#pragma omp parallel for,16,4,100,compact,cores
+15.609386,5,80, ,#pragma omp parallel for,256,32,10,compact,cores
+15.704666,5,80, ,#pragma omp parallel for,16,256,20,compact,cores
+15.595213000000001,5,80, ,#pragma omp parallel for,64,32,100,compact,cores
+15.7196295,5,80, ,#pragma omp parallel for,16,16,100,compact,threads
+15.5312025,5,80, ,#pragma omp parallel for,16,32,200,compact,cores
+15.5410565,7,80, ,#pragma omp parallel for,16,16,100,compact,sockets
+15.602657,4,80, , ,16,32,100,compact,cores
+15.552246,5,80, ,#pragma omp parallel for,16,96,160,compact,cores
+15.522144,5,128, ,#pragma omp parallel for,16,256,64,compact,cores
+15.61298,5,80, , ,16,32,100,scatter,cores
+15.597885999999999,5,80, ,#pragma omp parallel for,8,32,80,compact,cores
+15.542584000000002,5,80, ,#pragma omp parallel for,128,32,100,compact,cores
+15.4960415,5,80, ,#pragma omp parallel for,256,2,100,compact,cores
+15.615937,5,80, ,#pragma omp parallel for,2,32,10,compact,cores
+15.5790155,5,20, , ,16,32,100,compact,cores
+15.573664,5,80,#pragma clang unrolling full, ,16,256,100,compact,cores
+15.682918,5,10, ,#pragma omp parallel for,16,32,100,compact,cores
+15.515017,6,80, ,#pragma omp parallel for,16,32,100,compact,sockets
+15.5481515,5,80, ,#pragma omp parallel for,16,32,64,compact,cores
+15.5806205,5,80, ,#pragma omp parallel for,16,32,10,compact,cores
+15.4607355,5,40, ,#pragma omp parallel for,16,2,100,compact,cores
+15.419476,5,80, ,#pragma omp parallel for,16,32,160,balanced,cores
+15.466239999999999,5,80, ,#pragma omp parallel for,16,32,80,compact,cores
+15.5084675,6,80, ,#pragma omp parallel for,64,32,100,compact,cores
+15.5889275,4,160, ,#pragma omp parallel for,16,32,100,compact,cores
+15.515170000000001,5,80, ,#pragma omp parallel for,32,32,100,compact,threads
+15.530285,6,80, ,#pragma omp parallel for,16,32,160,compact,cores
+15.5170235,5,80,#pragma clang unrolling full,#pragma omp parallel for,16,32,100,balanced,cores
+15.601008,5,80,#pragma clang unrolling full,#pragma omp parallel for,16,16,100,balanced,cores
+15.5251475,5,128, ,#pragma omp parallel for,16,64,100,compact,cores
+15.5966475,8,100, ,#pragma omp parallel for,16,32,100,compact,cores
+15.4807845,5,160, ,#pragma omp parallel for,8,32,100,compact,threads
+15.425403,5,160, ,#pragma omp parallel for,16,96,100,compact,sockets
+15.4875385,5,80,#pragma clang unrolling full,#pragma omp parallel for,16,32,128,compact,cores
+15.570279,6,80, ,#pragma omp parallel for,16,32,100,compact,cores
+15.53702,5,80, ,#pragma omp parallel for,16,32,100,scatter,sockets
+15.4973685,5,80, ,#pragma omp parallel for,16,4,100,compact,sockets
+15.653295,5,100, ,#pragma omp parallel for,96,32,100,compact,threads
+15.5695355,5,80, ,#pragma omp parallel for,16,32,128,compact,cores
+15.476157,5,80, ,#pragma omp parallel for,16,2,100,compact,threads
+15.490126499999999,5,80, ,#pragma omp parallel for,2,128,100,compact,cores
+15.5381125,5,80, , ,4,32,100,compact,cores
+15.576477,6,80, ,#pragma omp parallel for,16,256,100,compact,cores
+15.479633,6,80, ,#pragma omp parallel for,16,32,100,balanced,sockets
+15.4977005,5,64, ,#pragma omp parallel for,16,128,100,compact,cores
+15.4941475,5,128, ,#pragma omp parallel for,96,32,100,balanced,cores
+15.5679365,5,128, ,#pragma omp parallel for,8,32,100,compact,cores
+15.5062225,5,80, ,#pragma omp parallel for,16,128,160,compact,cores

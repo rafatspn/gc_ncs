@@ -1,0 +1,116 @@
+objective,p0,p1,p2,p3,p4,p5,p6,p7,p8
+15.4508815,4,128, ,#pragma omp parallel for,128,2,20,compact,sockets
+15.5057155,4,100,#pragma clang unrolling full,#pragma omp parallel for,16,4,64,balanced,threads
+15.4256915,4,40,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.4707075,6,40,#pragma clang unrolling full, ,4,8,20,compact,cores
+15.500517,4,40,#pragma clang unrolling full,#pragma omp parallel for,64,4,40,balanced,cores
+15.484714499999999,4,40,#pragma clang unrolling full, ,64,128,40,compact,cores
+15.6897995,4,40, ,#pragma omp parallel for,64,4,40,balanced,cores
+15.627925,4,40, ,#pragma omp parallel for,32,4,40,balanced,cores
+15.669419,4,200,#pragma clang unrolling full,#pragma omp parallel for,64,4,40,balanced,cores
+15.712747499999999,4,64,#pragma clang unrolling full, ,64,4,40,balanced,sockets
+15.6596415,5,10,#pragma clang unrolling full, ,64,96,40,balanced,threads
+15.4949785,4,40, ,#pragma omp parallel for,64,4,40,balanced,threads
+15.579459,4,40,#pragma clang unrolling full, ,128,4,40,compact,cores
+15.5267415,7,40,#pragma clang unrolling full, ,64,4,20,balanced,cores
+15.523774,4,20,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.603117000000001,4,40,#pragma clang unrolling full, ,64,4,10,balanced,cores
+15.6187495,4,40,#pragma clang unrolling full, ,64,4,40,balanced,sockets
+15.5515665,4,40,#pragma clang unrolling full, ,64,4,160,balanced,threads
+15.559858,4,100,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.560180500000001,4,40, , ,64,4,40,balanced,cores
+15.633780000000002,4,40,#pragma clang unrolling full, ,64,4,100,balanced,cores
+15.555222,4,160,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.450696,7,40,#pragma clang unrolling full, ,4,4,40,balanced,threads
+15.551851,4,64,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.4876325,4,40,#pragma clang unrolling full, ,64,2,40,balanced,cores
+15.448848,5,40, , ,64,128,40,balanced,cores
+15.4998565,4,80,#pragma clang unrolling full,#pragma omp parallel for,64,4,40,balanced,cores
+15.490757,4,40,#pragma clang unrolling full, ,64,4,40,scatter,sockets
+15.5442265,4,40,#pragma clang unrolling full, ,64,4,64,balanced,cores
+15.515654999999999,4,40,#pragma clang unrolling full, ,128,4,40,balanced,cores
+15.5855675,7,80,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.528925000000001,5,64,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.568275499999999,8,40,#pragma clang unrolling full, ,96,4,40,balanced,cores
+15.611555,4,100, , ,64,4,40,balanced,cores
+15.494905,4,40, , ,64,4,40,scatter,cores
+15.525477500000001,4,40,#pragma clang unrolling full, ,64,4,40,scatter,cores
+15.577399,4,40,#pragma clang unrolling full, ,16,4,20,balanced,cores
+15.5422415,6,40,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.5923595,4,200,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.542141999999998,4,128,#pragma clang unrolling full, ,64,4,40,scatter,cores
+15.5310565,4,80,#pragma clang unrolling full, ,256,4,40,balanced,cores
+15.638271,4,40,#pragma clang unrolling full, ,64,4,20,compact,cores
+15.5823935,4,40,#pragma clang unrolling full, ,64,4,160,balanced,cores
+15.568934500000001,8,40,#pragma clang unrolling full, ,64,4,40,compact,sockets
+15.492994,4,40,#pragma clang unrolling full,#pragma omp parallel for,64,4,160,balanced,cores
+15.433492999999999,4,128,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.5489085,4,10,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.6051565,4,40,#pragma clang unrolling full, ,64,4,40,balanced,threads
+15.600176999999999,4,40,#pragma clang unrolling full, ,64,96,40,balanced,cores
+15.4432525,4,40,#pragma clang unrolling full, ,64,4,20,balanced,cores
+15.533759,4,40,#pragma clang unrolling full, ,64,4,128,balanced,cores
+15.509387,4,40,#pragma clang unrolling full, ,64,4,80,balanced,cores
+15.589111500000001,4,40,#pragma clang unrolling full, ,32,4,40,balanced,cores
+15.631304499999999,4,40, , ,64,4,40,balanced,threads
+15.7097765,5,40, , ,64,4,40,balanced,cores
+15.653310000000001,4,40,#pragma clang unrolling full,#pragma omp parallel for,32,4,40,scatter,cores
+15.5449125,4,40,#pragma clang unrolling full, ,64,4,40,compact,cores
+15.549387,4,40,#pragma clang unrolling full, ,64,4,200,balanced,cores
+15.617346000000001,4,40,#pragma clang unrolling full, ,4,128,40,balanced,cores
+15.673262999999999,4,40,#pragma clang unrolling full, ,64,256,40,balanced,cores
+15.4873565,4,40,#pragma clang unrolling full,#pragma omp parallel for,32,4,40,balanced,cores
+15.63396,4,40,#pragma clang unrolling full, ,16,4,40,balanced,cores
+15.6495,7,40,#pragma clang unrolling full, ,64,4,160,balanced,cores
+15.597451,5,40,#pragma clang unrolling full, ,64,4,160,balanced,cores
+15.613421500000001,4,100,#pragma clang unrolling full, ,8,4,40,balanced,cores
+15.608926499999999,4,160,#pragma clang unrolling full,#pragma omp parallel for,128,4,40,compact,cores
+15.624471,4,40, , ,32,4,40,balanced,cores
+15.472169000000001,5,40,#pragma clang unrolling full, ,64,4,40,compact,cores
+15.5722155,4,40,#pragma clang unrolling full, ,64,64,40,balanced,cores
+15.5686855,4,40,#pragma clang unrolling full, ,64,16,40,balanced,cores
+15.572287,8,40,#pragma clang unrolling full,#pragma omp parallel for,64,4,40,compact,cores
+15.5974085,7,40,#pragma clang unrolling full, ,2,4,40,balanced,cores
+15.5014195,4,100, , ,64,4,80,balanced,cores
+15.544274999999999,4,40,#pragma clang unrolling full, ,8,4,200,balanced,threads
+15.474626,8,40,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.509064500000001,5,40,#pragma clang unrolling full, ,64,2,40,balanced,cores
+15.601632500000001,4,40,#pragma clang unrolling full,#pragma omp parallel for,64,8,40,balanced,cores
+15.65316,4,40, , ,64,64,40,scatter,threads
+15.553274,4,40,#pragma clang unrolling full, ,64,4,10,balanced,threads
+15.642501,4,40,#pragma clang unrolling full, ,64,256,40,scatter,cores
+15.645249,4,100,#pragma clang unrolling full, ,64,4,40,compact,cores
+15.5755365,7,40,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.656169,4,40,#pragma clang unrolling full, ,64,8,128,balanced,cores
+15.601381,4,40,#pragma clang unrolling full,#pragma omp parallel for,256,8,100,balanced,cores
+15.5499735,4,80,#pragma clang unrolling full, ,64,4,64,balanced,cores
+15.5950635,4,80,#pragma clang unrolling full, ,64,4,20,balanced,cores
+15.632175,4,128,#pragma clang unrolling full,#pragma omp parallel for,64,4,40,balanced,cores
+15.548789500000002,4,40,#pragma clang unrolling full, ,64,4,40,compact,threads
+15.521537,4,40,#pragma clang unrolling full, ,8,4,40,balanced,cores
+15.6165965,4,128,#pragma clang unrolling full,#pragma omp parallel for,2,4,40,balanced,cores
+15.620172,4,40,#pragma clang unrolling full, ,4,4,20,balanced,threads
+15.546031500000002,6,40,#pragma clang unrolling full, ,64,4,20,scatter,cores
+15.4468695,5,40,#pragma clang unrolling full, ,64,4,40,balanced,threads
+15.63393,4,40,#pragma clang unrolling full, ,256,4,40,balanced,cores
+15.61716,8,40,#pragma clang unrolling full, ,64,4,64,compact,cores
+15.6452755,4,40,#pragma clang unrolling full, ,64,8,40,balanced,cores
+15.620097000000001,4,40,#pragma clang unrolling full, ,64,96,40,balanced,threads
+15.651677,4,40, , ,64,32,100,balanced,cores
+15.5370475,4,40,#pragma clang unrolling full, ,96,4,40,balanced,cores
+15.647464,6,40,#pragma clang unrolling full, ,64,4,100,balanced,cores
+15.652977,4,40,#pragma clang unrolling full,#pragma omp parallel for,64,4,40,balanced,sockets
+15.578971,5,40,#pragma clang unrolling full, ,16,4,40,balanced,cores
+15.655886,4,40,#pragma clang unrolling full, ,64,96,40,scatter,cores
+15.627548,4,160,#pragma clang unrolling full, ,2,4,40,balanced,threads
+15.654633,4,64,#pragma clang unrolling full, ,64,4,40,scatter,cores
+15.7743045,4,40, , ,64,2,40,balanced,sockets
+15.706426,4,40, , ,64,96,40,balanced,cores
+15.719977,4,40, ,#pragma omp parallel for,64,4,128,balanced,cores
+15.6378175,5,40,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.6841505,4,20, , ,64,4,40,balanced,cores
+15.686806,4,40, , ,64,4,128,balanced,cores
+15.6375335,4,80,#pragma clang unrolling full, ,64,4,40,balanced,cores
+15.677906,4,10, , ,64,4,40,balanced,cores
+15.5068165,4,200,#pragma clang unrolling full, ,64,4,10,balanced,cores
+15.650276999999999,4,200,#pragma clang unrolling full, ,64,4,40,balanced,threads

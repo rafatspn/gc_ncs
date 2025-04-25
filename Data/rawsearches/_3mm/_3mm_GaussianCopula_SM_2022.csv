@@ -1,0 +1,301 @@
+p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,objective,predicted,elapsed_sec
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059115,0.00015150053500721843,6.217752695083618
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,20,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0054505000000000005,0.00015150641736555193,12.402493715286255
+ , , ,32,16,4, , , , ,0.0052855,0.0001515133190510035,18.26053023338318
+ , , ,100,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053945,0.0001516548085323578,24.48472785949707
+ , , ,100,100,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005607,0.00015173765994751028,30.76572299003601
+ , , ,80,80,4, , , , ,0.0050405,0.0001517518927027161,37.011985301971436
+ , , ,16,64,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0055575,0.0001518386478571727,43.33905577659607
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057929999999999995,0.00015184632754462992,49.81088399887085
+ , , ,100,20,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004986,0.00015186772887512226,56.03196573257446
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,100,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005629,0.00015194785294323843,62.40042686462402
+ , , ,80,2048,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0052,0.00015257511214724324,68.3962984085083
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004807,0.00015302260437663907,74.69119215011597
+ , , ,128,16,4, , , , ,0.004953,0.00015310531670094515,80.33575177192688
+ , , ,80,100,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005608999999999999,0.0001534490193678639,86.62542223930359
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0055855,0.0001536665519122739,93.10669803619385
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053405,0.00015371723930323382,99.49331545829773
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,32,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005403,0.0001537507802040623,105.78039813041687
+ , , ,100,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0047765,0.00015375939631412394,112.07577681541443
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0050075,0.0001541603715133331,118.38747143745422
+ , , ,80,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005334,0.00015450871865338727,124.89365005493164
+ , , ,80,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.004366,0.00015453271794129753,131.29772877693176
+ , , ,4,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059885,0.00015465750607213864,137.56159043312073
+ , , ,128,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.004172500000000001,0.00015499795683567442,143.65372610092163
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005831,0.00015539528310635855,150.0660638809204
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,16,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056875,0.00015566041740554265,156.04213094711304
+ , , ,96,16,4, , , , ,0.0048995,0.00015604491644683532,162.3991997241974
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053655000000000005,0.00015631076866511,168.86343336105347
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005749499999999999,0.00015638121542360631,175.30859637260437
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059475,0.00015690350084394275,181.74614644050598
+ , , ,100,50,4, , , , ,0.005333,0.0001570541479202499,188.66507244110107
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004821,0.00015746329891652076,195.0673017501831
+ , , ,100,80,4, , , , ,0.005041,0.00015834431457526199,201.31306886672974
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,80,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005927,0.00015967907925232668,207.8953080177307
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0051455,0.0001598028604696274,214.3657741546631
+ , , ,100,64,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005737,0.00016032350833959134,220.74666571617126
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004680500000000001,0.0001620310335707369,226.65477633476257
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,16,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.00606,0.00016225477323355403,233.54179787635803
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0049605,0.00016402512950611415,239.98936653137207
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0054085,0.00016474081800921277,246.57715582847595
+ , , ,80,64,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005781,0.00016914991578949714,252.96102166175842
+ , , ,16,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005889,0.00016934168243999418,259.3510625362396
+ , , ,8,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005523500000000001,0.0001694784628341601,266.23065209388733
+ , , ,4,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.005105,0.00016976123519256355,272.77217864990234
+ , , ,16,20,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005745999999999999,0.00017017704384241603,278.6899347305298
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,8,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006425500000000001,0.00017483375757517967,285.2633213996887
+ , , ,16,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0047395,0.00017515365964472558,291.47551798820496
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0052910000000000006,0.00017531919346589107,297.8639004230499
+ , , ,16,128,4, , , , ,0.0047055,0.00017563207725498583,303.9346880912781
+ , , ,100,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0047975,0.0001785930899958041,310.2154312133789
+ , , ,20,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005414,0.00018000461745693602,316.4066412448883
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0050265,0.0001836694273377217,322.856477022171
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0054135,0.0001837500707059893,329.24771189689636
+ , , ,16,20,4, , , , ,0.0053245,0.00018959208310800673,334.992840051651
+ , , ,4,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056255,0.0001927597865672828,341.2853412628174
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,20,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059299999999999995,0.00020004996588492076,347.57435131073
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,64,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058215,0.00020229098784065405,354.1509292125702
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053690000000000005,0.00020241000537609403,360.468857049942
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,128,4, , , , ,0.004751,0.0002050478067870967,366.7711012363434
+ , , ,50,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004721,0.00020560618140901105,373.0874774456024
+ , , ,50,128,4, , , , ,0.004759,0.00021076788342384162,379.38722801208496
+ , , ,96,8,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0051275,0.00021614716319296156,386.51216411590576
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0053665,0.0002184075760315731,393.11664509773254
+ , , ,100,128,4, , , , ,0.004719,0.0002270359629278329,399.28761529922485
+ , , ,80,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.004809,0.00022746854814403806,405.5794186592102
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,64,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058875,0.00024474246803153426,412.1132342815399
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004965499999999999,0.0002641657919054739,418.55595541000366
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,64,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0051735,0.00026484818365286373,425.1363627910614
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005691,0.0002649548782312648,431.5174732208252
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056465000000000005,0.00026702353835055307,437.91495156288147
+ , , ,32,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.005052,0.00027859907476850284,444.24930906295776
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005386500000000001,0.0002815836782552099,450.598019361496
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006285000000000001,0.0002839602036649485,456.9299695491791
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0054065,0.00028616876488866017,463.1786594390869
+ , , ,100,16,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056945,0.0002885117694501277,469.4656083583832
+ , , ,4,64,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005919,0.00028874313593557936,475.8393530845642
+ , , ,16,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005377,0.0002897386273176981,481.75762820243835
+ , , ,96,100,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005588,0.00030689895829370936,488.0045530796051
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0062695,0.0003090522806500989,494.72674775123596
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.005587,0.0003437387904557211,501.09081292152405
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,64,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0048175,0.00035171461138617285,507.4913122653961
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,128,100,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0049825,0.000361924408009201,513.588372707367
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,128,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.005241,0.0003782263633913641,519.7336151599884
+ , , ,96,128,4, , , , ,0.004731,0.0003951200345314082,525.9150159358978
+ , , ,4,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005876,0.00041651378279184494,532.1512544155121
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005583,0.00042862616182849525,538.5384078025818
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005937,0.00043146625716411263,545.2049908638
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057145,0.0004373541239978871,551.7032375335693
+ , , ,16,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056845,0.00046828912357728885,558.0747015476227
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,64,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005458,0.0004736466811060493,564.4641382694244
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0054255,0.00048231261691703063,571.0442523956299
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.00557,0.0004936144814414968,577.995080947876
+ , , ,80,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053335,0.0005331940874571603,584.177033662796
+ , , ,4,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.005376000000000001,0.0005429672416909304,590.4412755966187
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056819999999999996,0.0005435191387923018,596.9053614139557
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,32,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0047485,0.0005537422253316551,603.0996050834656
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059985,0.0005719891370405674,609.167388677597
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,80,4, , , , ,0.0052085000000000005,0.0005978929565299695,615.5274765491486
+ , , ,16,100,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004948,0.0006038443387190225,621.7760174274445
+ , , ,80,4,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0060805,0.0006449820863653661,628.6608867645264
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,100,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059415,0.0006535290451180392,635.9024841785431
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0051995,0.0006540924024044344,642.3518607616425
+ , , ,80,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.00519,0.0006607755609393472,648.8448755741119
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,80,4, , , , ,0.005317499999999999,0.0006648134911190267,656.0582892894745
+ , , ,4,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0055865,0.0006803059703155072,662.5737175941467
+ , , ,32,64,4, , , , ,0.005082,0.0007345316865199365,668.811934709549
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058605,0.0007471781368760626,675.2109727859497
+ , , ,80,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058125,0.0007824333830377399,681.529303073883
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0050275,0.0008112423170773503,687.9005651473999
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,4,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0060114999999999995,0.0008778225880661259,694.9065039157867
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056229999999999995,0.0008920893840590547,701.4830894470215
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,50,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0052395,0.0009165496744236515,707.912942647934
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053505,0.0009259578728772163,714.1086447238922
+ , , ,4,4,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005386999999999999,0.0009735669874063801,721.8179550170898
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,128,4, , , , ,0.005027,0.001000159858199597,728.1878135204315
+ , , ,100,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057265,0.0010073957256430642,734.5871121883392
+ , , ,16,50,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058035,0.0010256761582764634,740.8253593444824
+ , , ,16,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005382,0.0010270447541839305,746.9561371803284
+ , , ,100,64,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057835000000000004,0.0010277137578962644,753.4224662780762
+ , , ,80,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0050555,0.0010937366025556567,759.8199148178101
+ , , ,96,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005832,0.0011014304271977937,766.142614364624
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,128,2048,4, , , , ,0.004818,0.0011520776946065787,771.683322429657
+ , , ,128,8,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0050255000000000005,0.0012094255984969914,778.1036624908447
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005339,0.0012211336281183287,784.4046366214752
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,32,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058744999999999995,0.001224188760007845,790.4491093158722
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053855,0.0012746762462024271,796.6858358383179
+ , , ,96,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0052,0.0013384564141163474,803.2126123905182
+ , , ,80,16,4, , , , ,0.004907,0.001342313020766593,809.5874555110931
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0051210000000000006,0.0013435145586395134,815.9687027931213
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,8,4, , , , ,0.005664,0.00139629876757592,822.8416886329651
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,2048,4, , , , ,0.0046865,0.001415919616136016,828.9709575176239
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059524999999999995,0.0014602504135940008,835.4256188869476
+ , , ,50,80,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005604,0.0014651796284442162,841.6670727729797
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059299999999999995,0.0015023593622965925,848.0304989814758
+ , , ,4,2048,4, , , , ,0.004573,0.0015798292394892642,853.9783899784088
+ , , ,16,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.006033,0.0016244046371524693,859.8157742023468
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006044000000000001,0.001741980321865255,866.2934982776642
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,128,4, , , , ,0.004715,0.001786371049578697,872.603200674057
+ , , ,4,16,4, , , , ,0.0051815,0.001862580311422094,878.7619190216064
+ , , ,128,64,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056055,0.001892958597901545,884.8453776836395
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,100,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0055934999999999995,0.0019560062530187827,891.2376081943512
+ , , ,8,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004953,0.002072675793359547,898.1112387180328
+ , , ,96,100,4, , , , ,0.004969,0.002182004124349147,904.3555452823639
+ , , ,80,80,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005671000000000001,0.0022749500289857695,910.6098952293396
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,20,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057725,0.002395548168377707,916.9455027580261
+ , , ,128,4,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0057824999999999994,0.0023956606912142538,923.4530146121979
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006182999999999999,0.0024488074250691868,929.8264486789703
+ , , ,8,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0061135,0.00254713217619074,936.5774364471436
+ , , ,32,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005412999999999999,0.0025566442318003075,942.6322469711304
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056815,0.002574982183013896,948.7119870185852
+ , , ,50,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004744,0.002651721922264331,954.7633991241455
+ , , ,8,100,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005667,0.002740948805874367,961.833544254303
+ , , ,100,2048,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0052715,0.002776143394113597,967.8958804607391
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,80,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005759,0.002823738992891604,974.2749857902527
+ , , ,50,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057325,0.0031355229179851657,980.6295852661133
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005943,0.003215158078566297,987.0788316726685
+ , , ,16,2048,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0051795,0.0035087913371258353,992.7482993602753
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059755,0.0035457541738092646,998.7736444473267
+ , , ,8,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005419500000000001,0.004025756861060135,1005.5660724639893
+ , , ,64,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005489,0.004154824416263887,1011.8872537612915
+ , , ,4,64,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057275,0.004201822551522575,1018.1615414619446
+ , , ,50,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.005350000000000001,0.004545098378225329,1024.4211163520813
+ , , ,96,8,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005497500000000001,0.004602894539462191,1031.6612067222595
+ , , ,4,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.006874,0.004607802895522074,1037.9157226085663
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,20,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005823999999999999,0.004807828085919723,1043.9325535297394
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,80,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005747,0.0048690317147727724,1050.297042131424
+ , , ,32,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053935,0.004877307937061647,1056.4094033241272
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,8,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0062625,0.004927600277308979,1063.2743339538574
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056815,0.005358130438142759,1069.7141590118408
+ , , ,16,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006224,0.006093347802170094,1075.7553164958954
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,32,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0063444999999999994,0.0061630714780959335,1081.82218003273
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,128,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006103,0.006278116391690592,1087.6774418354034
+ , , ,50,50,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058390000000000004,0.006310027567446343,1093.9941539764404
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,64,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005765,0.006811355774568754,1100.4670786857605
+ , , ,96,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058905,0.006829843362454901,1106.854428768158
+ , , ,100,50,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058715,0.007032902079494797,1113.4151902198792
+ , , ,16,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0054009999999999996,0.007340160648845542,1119.693041563034
+ , , ,4,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005321,0.007662920576433204,1125.7487652301788
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0054754999999999995,0.0077888818093198855,1132.0011417865753
+ , , ,100,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0050485,0.008124507467104733,1138.2647047042847
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0046185,0.00823439889918271,1144.4908907413483
+ , , ,20,2048,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005189,0.00832836030515208,1150.148832321167
+ , , ,100,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005226,0.008423092591555437,1156.268348455429
+ , , ,50,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005844500000000001,0.008470740841662458,1162.7738528251648
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,64,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005183,0.008594178850038851,1169.4172449111938
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005341,0.008698443724345901,1175.7535383701324
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.006215999999999999,0.008707514288419697,1182.6377658843994
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.00588,0.008769611541488182,1189.0434584617615
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,50,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059135,0.008953659919485787,1195.5810315608978
+ , , ,100,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005694,0.009060409883131507,1201.878743648529
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006066,0.009751983055865315,1208.3458607196808
+ , , ,80,16,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005472,0.009928939528662492,1214.6450679302216
+ , , ,80,32,4, , , , ,0.0051255,0.010050536456108556,1221.0044174194336
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,20,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005742499999999999,0.010167343795278894,1227.3018670082092
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,8,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006432,0.010643203894250643,1234.2025754451752
+ , , ,16,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053475,0.011483029343040282,1239.9882805347443
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005426,0.011822762900423132,1246.3777236938477
+ , , ,8,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0048814999999999996,0.012392282925043222,1253.2428925037384
+ , , ,4,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005298499999999999,0.012503334660542426,1259.3422946929932
+ , , ,16,8,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0061805,0.012737184084546986,1266.1339163780212
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,2048,4, , , , ,0.004658,0.01281418761362948,1272.260240316391
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0052915,0.013340427222245052,1278.7019670009613
+ , , ,16,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.006098,0.01394516200135738,1284.6715123653412
+ , , ,100,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0052285000000000005,0.01430129984048684,1290.8207552433014
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,80,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0054045,0.016165995883514542,1297.18483710289
+ , , ,100,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.00533,0.01653976265866952,1303.3676691055298
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,20,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0059495,0.016807142463041817,1309.40527176857
+ , , ,16,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0047285,0.017140970424596304,1315.4905030727386
+ , , ,128,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005655,0.019178137857509266,1321.581305027008
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,50,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0060795,0.01957455562411331,1327.9263696670532
+ , , ,16,80,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005648,0.02026492818479972,1334.1814527511597
+ , , ,100,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056735,0.023041974887773715,1340.5055477619171
+ , , ,80,100,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0055045,0.024575564993418557,1346.7417912483215
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,100,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0055365,0.024722472128526803,1353.3394346237183
+ , , ,4,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0054475,0.028888661285640153,1359.654506444931
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005648,0.03036709675536922,1366.0528008937836
+ , , ,4,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.006002,0.030490657321629703,1372.2256247997284
+ , , ,96,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005390000000000001,0.03272029522565015,1378.4366705417633
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.004754,0.03290363353839028,1384.7485883235931
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,50,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057955,0.035177061313252656,1390.8293375968933
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,100,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056085,0.03607559475861911,1397.190399646759
+ , , ,4,20,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057020000000000005,0.04112597416050821,1403.3890571594238
+ , , ,80,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0054745,0.049417310433660024,1409.7046916484833
+ , , ,64,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057599999999999995,0.05204170730410739,1415.9811737537384
+ , , ,4,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005525,0.053272873807494375,1422.3412508964539
+ , , ,16,16,4, , , , ,0.005327,0.05760718138517063,1428.1846420764923
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005321,0.05865033235047194,1434.0684661865234
+ , , ,128,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.005181,0.05931692512160414,1439.809029340744
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005443,0.07189910615702043,1445.8281004428864
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,50,4, , , , ,0.0052925,0.07322782946810154,1452.705604314804
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,32,8,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0063435,0.07505293790206449,1459.223956823349
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,100,4, , , , ,0.005123,0.08161241801702872,1465.579929113388
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,20,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005936500000000001,0.0824495050169961,1471.5890135765076
+ , , ,50,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058224999999999996,0.08268162461737759,1478.1028332710266
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0038175,0.09472044479557848,1484.5440227985382
+ , , ,100,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005037,0.10440950804033085,1490.9042904376984
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057405,0.10463125849674652,1497.3093166351318
+ , , ,128,64,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057575000000000005,0.10879072364536743,1503.3293488025665
+ , , ,4,8,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057894999999999995,0.1271385470718667,1510.4674406051636
+ , , ,100,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0049785,0.13090972987157756,1516.875411272049
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005399,0.13391451900598964,1523.092354774475
+ , , ,32,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.00506,0.15387771750862106,1529.3519971370697
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057085,0.15577691694758436,1535.818613767624
+ , , ,128,100,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0055615000000000005,0.16439210761843326,1541.7762775421143
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0047925,0.16559654793384346,1548.1664102077484
+ , , ,4,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058390000000000004,0.1795925648428217,1554.7050936222076
+ , , ,16,20,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.00584,0.18187009767822923,1560.505150794983
+ , , ,4,4,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0055425000000000006,0.2220934623102898,1567.8769795894623
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,2048,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005387,0.26651495445255297,1574.0292029380798
+ , , ,4,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005745999999999999,0.3300460298330531,1580.5529532432556
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056495,0.00015150762917167884,1587.2092995643616
+ , , ,20,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0050065000000000005,0.00015151522258738018,1593.440435409546
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,64,4, , , , ,0.0051735,0.00015152278624844227,1599.8202002048492
+ , , ,8,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005202,0.0001515255857170714,1606.8614733219147
+ , , ,4,4,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005667,0.0001515465883556776,1614.307296514511
+ , , ,128,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005228,0.00015159819380114564,1620.1045384407043
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0051275,0.00015164192621486717,1626.59668302536
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,32,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005646999999999999,0.0001518039157822473,1632.607521533966
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,32,16,4, , , , ,0.0056875,0.0001523062528918089,1638.566771030426
+ , , ,100,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057765,0.00015232855422108157,1644.9974932670593
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005704,0.00015282641276340988,1651.392690896988
+ , , ,8,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0049475000000000005,0.0001528417134844924,1658.2343797683716
+ , , ,100,4,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053815,0.00015382547018721461,1665.2094144821167
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0057615,0.00015689166517761417,1671.254002571106
+ , , ,80,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056065,0.00015711156636496334,1677.5470316410065
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,128,80,4, , , , ,0.005073,0.00015713263859822027,1683.5960845947266
+ , , ,4,50,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0060775,0.00015852669171614588,1690.1182684898376
+ , , ,16,50,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005742,0.00015894705106144034,1696.5134596824646
+ , , ,128,32,4, , , , ,0.005224,0.00015913698537034054,1702.1327216625214
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005348,0.00015972179195150753,1708.2533540725708
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,8,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0064605,0.0001609004637214328,1715.1586894989014
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,128,2048,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.00541,0.0001615902197479684,1720.7295281887054
+ , , ,8,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006097,0.00016252328098562255,1727.5304176807404
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005659,0.0001632788391084171,1733.9816408157349
+ , , ,50,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0053950000000000005,0.00016382182026019018,1740.3486368656158
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,100,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0055005,0.00016472672189206272,1746.8973596096039
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,2048,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005206499999999999,0.00016499481519103372,1753.0684564113617
+ , , ,100,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0046875,0.00016700034142207165,1759.195102930069
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.005613,0.00016748232121513527,1765.5291647911072
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,80,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005723499999999999,0.00016898219007460935,1771.8898491859436
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,2048,4,#pragma clang loop(j2) pack array(C) allocate(malloc), , , ,0.0046370000000000005,0.00016985134802353406,1778.4875059127808
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.005818500000000001,0.00017061051762362354,1784.814870595932
+ , , ,80,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005107,0.00017170143755175065,1791.1640379428864
+ , , ,50,128,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005425,0.00017887762984154432,1797.481508731842
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,16,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.0056655,0.0001831231123021721,1803.8828339576721
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,128,128,4, , , , ,0.004838,0.00018382799379563426,1809.783474445343
+ , , ,100,32,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0053615,0.00018855904367412495,1816.2849383354187
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,50,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058125,0.00018921434870986198,1822.6211743354797
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,80,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0051285,0.0001922828025630834,1829.033231496811
+ , , ,4,128,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0051034999999999995,0.00019736833157223417,1835.3116748332977
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,100,8,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005981500000000001,0.00019768898014142463,1842.1474215984344
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,50,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0060485,0.00020153208398381964,1848.5157811641693
+ , , ,100,32,4, , , ,#pragma clang loop(i1) pack array(F) allocate(malloc),0.005773,0.00020398065180026004,1854.8460342884064
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,100,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005038,0.00020531973364579549,1861.2359561920166
+ , , ,16,8,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0061329999999999996,0.00020696520373216946,1867.9896442890167
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,32,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.006106,0.0002098721447212003,1874.0132229328156
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0053435,0.00021394966685600386,1880.621105670929
+ , , ,128,16,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.0058505,0.00021512638639112737,1886.4296860694885
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,128,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.0047585,0.00022301313948145198,1892.8200056552887
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,16,4, , ,#pragma clang loop(j2) pack array(E) allocate(malloc),#pragma clang loop(i1) pack array(F) allocate(malloc),0.00605,0.0002240503735632623,1899.7746987342834
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,80,4,#pragma clang loop(j2) pack array(C) allocate(malloc), ,#pragma clang loop(j2) pack array(E) allocate(malloc), ,0.005167,0.00022820995091601005,1906.2362892627716

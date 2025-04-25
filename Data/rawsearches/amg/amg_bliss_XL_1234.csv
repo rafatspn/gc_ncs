@@ -1,0 +1,256 @@
+p0,p1,p2,p3,p4,p5,p6,p7,p8,objective,actually_measured,lookahead,model_name,acquisition_function
+6,10, , ,96,2,10,scatter,cores,-18.975952704747517,True,-1,initial_sampling,Random_Sampling
+8,200,#pragma clang unrolling full, ,256,128,200,compact,cores,-19.51049002011617,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,200,#pragma clang unrolling full, ,256,128,200,scatter,sockets,-19.444713830947876,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,160, ,#pragma omp parallel for,4,96,160,balanced,cores,-19.491682370503742,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200, ,#pragma omp parallel for,256,128,200,balanced,sockets,-19.40319077173869,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+8,100,#pragma clang unrolling full,#pragma omp parallel for,96,256,100,compact,cores,-19.54387100537618,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,200,#pragma clang unrolling full, ,256,128,200,balanced,threads,-19.73369876543681,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+6,160, ,#pragma omp parallel for,32,64,200,scatter,sockets,-18.83164056142171,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,256,128,200,compact,threads,-19.49490523338318,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,256,128,200,balanced,sockets,-19.519269625345867,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,256,128,200,scatter,sockets,-19.502960522969563,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+4,160, ,#pragma omp parallel for,256,64,20,compact,threads,-17.818780024846394,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,200,#pragma clang unrolling full,#pragma omp parallel for,256,128,200,compact,sockets,-17.8278386592865,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+4,100, , ,96,256,100,balanced,sockets,-17.868428071339924,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,100, , ,256,128,100,compact,sockets,-20.435959100723267,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+6,160, ,#pragma omp parallel for,32,32,200,scatter,sockets,-18.542086124420166,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+7,200, ,#pragma omp parallel for,256,256,100,scatter,sockets,-20.60772983233134,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+7,200,#pragma clang unrolling full, ,96,128,100,balanced,sockets,-20.388073682785034,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, ,#pragma omp parallel for,96,96,200,compact,sockets,-21.333855152130127,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,100,#pragma clang unrolling full, ,256,128,100,compact,sockets,-20.511871417363484,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,100,#pragma clang unrolling full, ,96,256,200,balanced,sockets,-20.47763967514038,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, , ,256,256,100,balanced,sockets,-20.494531234105427,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+7,100, , ,256,256,200,balanced,cores,-20.37269099553426,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,100, ,#pragma omp parallel for,256,256,200,scatter,cores,-20.62248468399048,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,200,#pragma clang unrolling full, ,256,256,200,compact,cores,-20.213673273722332,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200, , ,96,256,200,balanced,threads,-19.4495423634847,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, , ,96,128,100,balanced,cores,-20.253096342086792,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, ,#pragma omp parallel for,256,128,100,compact,cores,-20.620500326156616,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200, ,#pragma omp parallel for,96,256,100,compact,cores,-19.496843417485554,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, ,#pragma omp parallel for,256,128,200,balanced,sockets,-14.999175823640833,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full,#pragma omp parallel for,256,256,200,compact,sockets,-18.689311795759426,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100, ,#pragma omp parallel for,96,128,200,balanced,threads,-16.404841622257315,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, , ,256,128,200,compact,cores,-15.953505182718061,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,10, , ,96,256,100,balanced,sockets,-18.842615692930178,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+7,200,#pragma clang unrolling full,#pragma omp parallel for,256,64,200,compact,sockets,-13.921072460411137,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100,#pragma clang unrolling full,#pragma omp parallel for,96,256,100,balanced,sockets,-20.560869375864666,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100,#pragma clang unrolling full,#pragma omp parallel for,256,128,200,compact,sockets,-20.64138380686442,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, , ,256,96,200,balanced,sockets,-20.534940004348755,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, ,#pragma omp parallel for,256,128,160,balanced,cores,-19.444610834121704,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200, , ,256,32,100,compact,sockets,-19.406875530878704,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full, ,256,32,100,balanced,sockets,-15.556119704934732,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, ,#pragma omp parallel for,256,256,100,compact,sockets,-17.712701249176064,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,256,256,10,balanced,cores,-15.544453990922014,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,128,#pragma clang unrolling full,#pragma omp parallel for,256,128,100,balanced,cores,-13.6903568051468,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, , ,96,128,200,compact,cores,-14.70662198806095,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,10, , ,256,256,100,compact,cores,-15.54775324993785,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,256,256,200,compact,sockets,-19.459338188171387,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,256,128,10,balanced,cores,-19.416553894678753,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,40,#pragma clang unrolling full, ,256,64,100,balanced,cores,-19.91991090774536,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,128, ,#pragma omp parallel for,256,128,100,balanced,sockets,-19.509918610254925,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100,#pragma clang unrolling full, ,96,128,100,compact,cores,-20.345739285151165,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,160,#pragma clang unrolling full,#pragma omp parallel for,256,16,100,compact,cores,-13.03120617526246,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, , ,96,128,200,balanced,cores,-14.625778842824435,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, , ,96,2,200,compact,cores,-15.64932116642917,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200,#pragma clang unrolling full,#pragma omp parallel for,256,16,64,compact,sockets,-13.714140205172223,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200,#pragma clang unrolling full,#pragma omp parallel for,96,256,200,compact,cores,-16.07522413374233,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,100, , ,96,256,100,balanced,threads,-19.1945405305052,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,96,128,100,compact,cores,-19.49069293340047,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, , ,96,256,100,compact,threads,-20.352428674697876,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,128,#pragma clang unrolling full,#pragma omp parallel for,256,256,100,compact,sockets,-19.572786649068195,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,256,8,64,compact,cores,-19.46793333689372,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,256,16,100,balanced,cores,-20.13672963778178,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64,#pragma clang unrolling full,#pragma omp parallel for,256,64,100,compact,cores,-11.196163502879259,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,128,#pragma clang unrolling full,#pragma omp parallel for,256,96,100,compact,cores,-9.911368434683858,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, ,#pragma omp parallel for,256,96,200,compact,threads,-16.034848790142494,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,64,#pragma clang unrolling full, ,256,128,100,compact,cores,-11.12867510430754,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,80,#pragma clang unrolling full,#pragma omp parallel for,128,96,100,compact,cores,-10.832424105127641,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,80,#pragma clang unrolling full,#pragma omp parallel for,256,32,40,compact,cores,-13.47823680359983,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,128,#pragma clang unrolling full, ,256,64,100,compact,cores,-19.46623198191325,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,10,#pragma clang unrolling full,#pragma omp parallel for,256,128,100,compact,cores,-19.39119513829549,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64,#pragma clang unrolling full,#pragma omp parallel for,256,128,100,compact,cores,-19.414962609608967,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full,#pragma omp parallel for,16,32,40,compact,sockets,-19.41291658083598,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64,#pragma clang unrolling full, ,16,256,64,compact,cores,-20.477831919987995,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64,#pragma clang unrolling full, ,96,32,64,balanced,sockets,-5.5637312181522125,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200,#pragma clang unrolling full,#pragma omp parallel for,256,96,200,compact,sockets,-15.76487475782785,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,64, , ,8,128,64,compact,sockets,-20.281114896138508,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,80,#pragma clang unrolling full,#pragma omp parallel for,96,8,64,balanced,sockets,-19.6050124168396,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64, ,#pragma omp parallel for,16,16,100,compact,cores,-19.50633931159973,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100,#pragma clang unrolling full,#pragma omp parallel for,96,16,80,balanced,cores,-20.69712011019389,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200,#pragma clang unrolling full, ,96,16,64,balanced,cores,-20.517320156097412,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, ,#pragma omp parallel for,96,128,128,compact,sockets,-17.34728642386188,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full, ,256,32,100,compact,cores,-7.184441065984878,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64,#pragma clang unrolling full,#pragma omp parallel for,96,32,100,balanced,sockets,-20.627843221028645,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64,#pragma clang unrolling full, ,96,32,128,balanced,sockets,-20.507169087727863,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,40, , ,96,64,40,balanced,sockets,-20.441690524419148,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,80,#pragma clang unrolling full, ,96,16,40,compact,sockets,-20.50110912322998,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64,#pragma clang unrolling full,#pragma omp parallel for,32,256,200,balanced,cores,-19.91182025273641,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,80,#pragma clang unrolling full,#pragma omp parallel for,256,64,100,compact,cores,-9.936354815833617,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,64,#pragma clang unrolling full,#pragma omp parallel for,256,128,100,compact,cores,-13.517249468323945,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, , ,8,128,200,compact,sockets,-20.29907162984212,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full, ,256,128,20,compact,cores,-20.401683568954468,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full,#pragma omp parallel for,96,128,100,compact,cores,-19.465477387110393,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+7,100,#pragma clang unrolling full, ,256,96,100,compact,cores,-20.299097299575806,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full,#pragma omp parallel for,256,128,128,compact,cores,-19.580145120620728,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,32,128,100,compact,sockets,-7.789291258480509,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,40, , ,256,4,64,balanced,sockets,-3.275463071834169e-06,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, , ,16,256,64,balanced,threads,-3.4215293553954416e-06,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,160,#pragma clang unrolling full,#pragma omp parallel for,256,128,100,balanced,sockets,-15.853007382186956,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,20,#pragma clang unrolling full, ,16,32,200,balanced,sockets,-4.2163856710892826e-06,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200,#pragma clang unrolling full,#pragma omp parallel for,256,128,100,compact,cores,-16.684648905730455,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+7,200, , ,16,16,100,balanced,threads,-4.0692348456331385e-06,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200, , ,16,256,64,compact,sockets,-20.37833325068156,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, ,#pragma omp parallel for,128,16,64,balanced,threads,-21.70942234992981,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,20,#pragma clang unrolling full,#pragma omp parallel for,16,8,200,compact,sockets,-20.659079949061077,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64, , ,256,16,200,compact,cores,-19.391253630320232,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64, , ,64,128,80,balanced,sockets,-19.439540942509968,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full, ,256,256,200,compact,sockets,-19.369128863016766,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full, ,256,2,100,balanced,sockets,-19.474212010701496,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,200, , ,256,2,100,balanced,cores,-19.940317312876385,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full, ,256,128,10,balanced,sockets,-20.13614519437154,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,200, , ,256,2,100,balanced,cores,-19.443626483281452,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+7,80,#pragma clang unrolling full, ,96,32,64,balanced,sockets,-7.874835848412039,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,100,#pragma clang unrolling full, ,16,16,100,balanced,sockets,-2.7791075899561605e-05,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, ,#pragma omp parallel for,16,8,200,balanced,sockets,-0.07046281253147028,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,64, , ,32,4,100,balanced,sockets,-2.6311806096559023e-05,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,80,#pragma clang unrolling full,#pragma omp parallel for,8,256,100,balanced,sockets,-3.379729622506571e-05,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, , ,16,256,64,balanced,cores,-2.177859311575232e-06,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64,#pragma clang unrolling full,#pragma omp parallel for,96,128,64,compact,cores,-2.778192554279365e-05,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full, ,4,16,100,balanced,sockets,-19.87732474009196,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64, ,#pragma omp parallel for,256,256,80,balanced,sockets,-20.627385059992474,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64,#pragma clang unrolling full,#pragma omp parallel for,16,128,100,balanced,cores,-20.68918474515279,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64,#pragma clang unrolling full,#pragma omp parallel for,64,8,64,balanced,sockets,-19.889829794565838,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,20, , ,256,2,80,balanced,sockets,-18.132988532384235,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,40, ,#pragma omp parallel for,16,128,100,balanced,cores,-20.532274961471558,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,64, , ,256,4,40,balanced,sockets,-18.053068319956463,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,20, , ,256,8,64,scatter,threads,-17.606705983479817,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,64, , ,256,8,128,balanced,sockets,-19.17402180035909,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, ,#pragma omp parallel for,16,96,40,balanced,cores,-20.697308381398518,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,40,#pragma clang unrolling full, ,4,32,160,compact,cores,-19.369337399800617,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,100, ,#pragma omp parallel for,8,256,80,compact,sockets,-19.423429648081463,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,160, ,#pragma omp parallel for,16,256,160,balanced,sockets,-20.57786687215169,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64,#pragma clang unrolling full, ,4,128,10,balanced,sockets,-19.2987167040507,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, ,#pragma omp parallel for,16,2,20,balanced,cores,-20.584922075271606,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,10,#pragma clang unrolling full,#pragma omp parallel for,32,4,100,compact,cores,-20.560593525568645,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,128,#pragma clang unrolling full, ,32,16,100,compact,sockets,-20.377496878306072,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+6,100,#pragma clang unrolling full,#pragma omp parallel for,16,128,64,balanced,cores,-18.5873122215271,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64, ,#pragma omp parallel for,96,256,80,balanced,sockets,-20.54265038172404,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,40,#pragma clang unrolling full, ,16,256,10,compact,sockets,-19.469202041625977,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64, , ,256,128,128,balanced,cores,-20.256365935007732,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64,#pragma clang unrolling full,#pragma omp parallel for,8,128,200,balanced,cores,-20.66356937090556,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200, , ,8,32,64,compact,sockets,-19.421687364578247,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200, ,#pragma omp parallel for,16,4,200,compact,cores,-19.412602106730144,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,40, , ,96,256,64,compact,cores,-19.648569504419964,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,100,#pragma clang unrolling full, ,96,128,64,compact,sockets,-17.76447645823161,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,64,#pragma clang unrolling full,#pragma omp parallel for,2,256,200,compact,sockets,-17.65720534324646,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, , ,96,16,40,compact,cores,-19.8942969640096,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,160,#pragma clang unrolling full,#pragma omp parallel for,96,16,200,compact,sockets,-19.42862017949422,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64,#pragma clang unrolling full, ,256,256,10,compact,cores,-20.294890244801838,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,40, , ,256,8,64,scatter,sockets,-17.838874340057373,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, , ,4,16,100,balanced,cores,-20.284703016281128,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, ,#pragma omp parallel for,16,16,100,balanced,sockets,-20.596376339594524,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,160, , ,16,16,100,balanced,cores,-20.3709933757782,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+6,200, , ,32,16,100,balanced,threads,-18.44296105702718,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,100,#pragma clang unrolling full,#pragma omp parallel for,64,16,200,balanced,cores,-17.835047086079914,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64, ,#pragma omp parallel for,16,16,80,balanced,cores,-20.600261131922405,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,40,#pragma clang unrolling full, ,256,16,100,balanced,sockets,-20.346067031224568,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, ,#pragma omp parallel for,16,4,10,balanced,cores,-19.339952389399212,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,64, ,#pragma omp parallel for,96,128,200,compact,sockets,-17.627029259999592,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,200,#pragma clang unrolling full,#pragma omp parallel for,96,256,64,balanced,cores,-19.512938102086384,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64, , ,8,256,100,balanced,cores,-20.220381498336792,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,40, , ,96,16,100,balanced,cores,-19.269868930180866,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, , ,8,16,40,compact,sockets,-20.446720202763874,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,160,#pragma clang unrolling full, ,96,128,64,balanced,sockets,-17.84467951456706,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full,#pragma omp parallel for,8,256,80,compact,sockets,-19.92715859413147,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,10,#pragma clang unrolling full,#pragma omp parallel for,16,128,200,balanced,sockets,-19.441537380218506,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,100,#pragma clang unrolling full,#pragma omp parallel for,4,8,200,balanced,sockets,-19.363749106725056,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,64, , ,96,4,200,compact,cores,-20.243406454722088,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+7,200,#pragma clang unrolling full, ,256,256,64,balanced,cores,-20.476446390151978,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,100, , ,16,128,100,compact,sockets,-19.339487473169964,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, , ,32,4,160,balanced,sockets,-19.343931516011555,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,100, ,#pragma omp parallel for,16,16,200,scatter,sockets,-17.748587528864544,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100,#pragma clang unrolling full, ,128,256,64,compact,cores,-20.270669142405193,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,20,#pragma clang unrolling full,#pragma omp parallel for,256,16,200,compact,cores,-20.52158800760905,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,80, , ,256,128,20,balanced,sockets,-20.26650134722392,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,160, ,#pragma omp parallel for,16,256,100,balanced,sockets,-19.499529600143433,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,20, ,#pragma omp parallel for,16,8,200,balanced,sockets,-19.919749577840168,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,64,#pragma clang unrolling full, ,32,64,200,balanced,threads,-17.856905301411945,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,100,#pragma clang unrolling full,#pragma omp parallel for,4,32,100,balanced,sockets,-19.422608455022175,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200, , ,256,8,200,balanced,cores,-19.204364617665608,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64, , ,64,256,200,compact,cores,-20.346896807352703,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,80,#pragma clang unrolling full,#pragma omp parallel for,96,256,100,balanced,sockets,-17.60753806432088,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200,#pragma clang unrolling full, ,4,16,200,balanced,cores,-20.350507179896038,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+6,80, ,#pragma omp parallel for,96,128,10,compact,cores,-18.621389547983807,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full, ,256,2,100,balanced,sockets,-19.484839916229248,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full, ,96,128,100,balanced,sockets,-19.479190349578857,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full, ,256,128,100,balanced,sockets,-19.356055974960327,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full, ,256,128,100,balanced,sockets,-19.39932306607564,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full,#pragma omp parallel for,2,128,100,balanced,sockets,-19.459519386291504,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,100,#pragma clang unrolling full, ,32,32,200,balanced,sockets,2.5042792807162533,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full, ,64,32,160,balanced,sockets,0.8152605322770672,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, ,#pragma omp parallel for,96,128,200,balanced,cores,-17.576345127764753,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+8,100, , ,64,64,200,scatter,sockets,0.23704323991785597,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,10,#pragma clang unrolling full, ,64,64,200,balanced,sockets,0.4878391926765093,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,40, ,#pragma omp parallel for,8,128,64,compact,cores,-0.002549120564570769,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,128, ,#pragma omp parallel for,16,128,40,compact,cores,-0.002762859769518746,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,40, , ,96,128,80,balanced,cores,-19.330334186553955,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, , ,96,16,200,compact,sockets,-20.39533535639445,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full, ,32,128,64,balanced,cores,-19.628724177678425,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, , ,16,128,100,compact,sockets,-20.337648789087932,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,80, ,#pragma omp parallel for,96,64,40,compact,cores,-19.383966604868572,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,80, , ,256,256,80,compact,cores,-19.973560969034832,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full, ,16,32,128,balanced,sockets,-19.84470558166504,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full, ,256,32,160,scatter,sockets,-19.34538809458415,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+6,20,#pragma clang unrolling full, ,128,96,64,compact,sockets,-18.475946029027302,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, , ,32,64,100,balanced,sockets,-20.383289337158203,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100,#pragma clang unrolling full,#pragma omp parallel for,16,256,200,balanced,cores,-20.536370277404785,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+6,200,#pragma clang unrolling full,#pragma omp parallel for,16,8,80,compact,cores,-18.54734492301941,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64, ,#pragma omp parallel for,16,256,64,balanced,cores,-19.409444570541382,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100,#pragma clang unrolling full, ,96,256,80,compact,cores,-20.31758777300517,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200,#pragma clang unrolling full,#pragma omp parallel for,256,128,64,balanced,cores,-20.63809339205424,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100,#pragma clang unrolling full, ,8,4,100,balanced,sockets,-20.504519939422607,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full, ,96,8,40,compact,cores,-19.412294626235962,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64, ,#pragma omp parallel for,256,128,200,compact,sockets,-19.345160643259685,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,40,#pragma clang unrolling full, ,16,64,40,balanced,cores,-17.85542368888855,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200,#pragma clang unrolling full, ,16,128,160,compact,cores,-20.37883202234904,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,128,#pragma clang unrolling full, ,256,16,200,balanced,cores,-20.237307627995808,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,40, , ,4,16,100,compact,cores,-20.40541958808899,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100, ,#pragma omp parallel for,256,128,64,balanced,cores,-20.605610529581707,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full,#pragma omp parallel for,256,256,64,compact,cores,-19.888253768285114,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, , ,4,256,64,compact,sockets,-20.266724745432537,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,100,#pragma clang unrolling full, ,64,64,200,balanced,sockets,-19.119947989781696,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,64, , ,96,4,200,balanced,cores,-19.51382565498352,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full, ,96,128,200,compact,sockets,-19.837998867034912,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,40,#pragma clang unrolling full,#pragma omp parallel for,96,128,80,compact,cores,-20.65355332692464,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+6,20, ,#pragma omp parallel for,32,256,20,balanced,sockets,-18.589924335479736,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,80, , ,8,8,128,compact,sockets,-19.126949310302734,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, , ,8,128,128,compact,cores,-19.29152266184489,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,80, ,#pragma omp parallel for,8,8,20,balanced,sockets,-19.37727705637614,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,10, , ,96,4,80,balanced,sockets,-17.720428625742596,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,200,#pragma clang unrolling full,#pragma omp parallel for,64,256,128,balanced,cores,-17.847320238749187,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,80,#pragma clang unrolling full,#pragma omp parallel for,8,128,80,compact,sockets,-19.31460189819336,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,200, , ,128,32,80,balanced,sockets,-17.59635066986084,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,160, ,#pragma omp parallel for,96,32,100,compact,sockets,-19.45040289560954,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,200, , ,8,128,100,balanced,cores,-17.51675494511922,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64, ,#pragma omp parallel for,64,128,200,compact,sockets,-20.45665446917216,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64,#pragma clang unrolling full,#pragma omp parallel for,96,256,10,compact,sockets,-20.64962649345398,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200, , ,16,128,200,compact,sockets,-19.47846555709839,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,64,#pragma clang unrolling full,#pragma omp parallel for,64,2,100,balanced,cores,-17.676798343658447,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,200,#pragma clang unrolling full,#pragma omp parallel for,16,8,40,balanced,cores,-19.341628074645996,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+6,160,#pragma clang unrolling full, ,16,256,100,compact,sockets,-18.513391812642414,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,100,#pragma clang unrolling full,#pragma omp parallel for,8,32,200,balanced,cores,-20.567087014516193,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+6,100,#pragma clang unrolling full,#pragma omp parallel for,256,8,10,compact,sockets,-18.599101066589355,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,80,#pragma clang unrolling full,#pragma omp parallel for,256,64,80,balanced,cores,-19.42545223236084,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200, ,#pragma omp parallel for,96,8,128,compact,sockets,-20.594771941502888,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,200,#pragma clang unrolling full,#pragma omp parallel for,256,16,100,compact,cores,-20.56184148788452,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+7,64,#pragma clang unrolling full, ,8,256,100,balanced,sockets,-20.41494909922282,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100, , ,32,32,200,balanced,sockets,-19.25032885869344,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full, ,64,96,200,scatter,sockets,-19.322216828664143,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,10,#pragma clang unrolling full, ,32,32,200,balanced,sockets,-19.52643322944641,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,20,#pragma clang unrolling full, ,8,32,200,balanced,sockets,-19.373746792475384,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+5,64, , ,32,96,100,compact,sockets,-19.13227351506551,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,10, ,#pragma omp parallel for,128,64,200,balanced,sockets,-20.143054723739624,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,40,#pragma clang unrolling full, ,16,32,200,balanced,sockets,-17.72454555829366,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,100,#pragma clang unrolling full, ,32,64,200,balanced,threads,-19.347494920094807,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,20,#pragma clang unrolling full, ,64,96,200,balanced,sockets,-19.405513763427734,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
