@@ -1,6 +1,7 @@
 # Data
 
 This directory includes materials for postprocessing NCS and other search data (as CSVs; no IR data needs to be present here).
+Prior to starting these tasks, all data should be moved into a subdirectory named `arafat_all_convert`, with a separate subdirectory beneath this level per benchmark (ie: arafat\_all\_convert/3mm, for the Polybench/C 3mm benchmark).
 
 ---
 
