@@ -1,19 +1,4 @@
 #!/bin/bash
-#PBS -l walltime=6:00:00
-#PBS -l select=1:system=sophia
-#PBS -l filesystems=home
-#PBS -A EE-ECP
-#PBS -q by-gpu
-#PBS -N t3mmcnn
-
-cd /home/rafatspn/clemson
-
-module use /soft/modulefiles ; module load conda; conda activate base
-
-module list;
-date;
-which python3;
-
 
 SCRIPT="REPLACE_THIS/multi_cnn_v3.py"
 CSV_PATH="REPLACE_THIS" #path to the directory that contains the csv files generateed in the csv preprocessing step

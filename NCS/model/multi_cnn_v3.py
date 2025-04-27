@@ -279,6 +279,5 @@ def main():
     train_and_evaluate_models(data, token_dict, args.out_path, args.out_file, device=device)
     print(f"Total training Time: {training_time:.6f} sec")
     
-
 if __name__ == "__main__":
     main()
