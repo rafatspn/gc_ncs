@@ -1,18 +1,4 @@
 #!/bin/bash
-#PBS -l walltime=1:00:00
-#PBS -l select=1:system=sophia
-#PBS -l filesystems=home
-#PBS -A EE-ECP
-#PBS -q by-node
-#PBS -N cnv
-
-cd /home/rafatspn/clemson
-
-module use /soft/modulefiles ; module load conda; conda activate base
-
-module list;
-date;
-which python3;
 
 #static variables
 _3MM_DT='{"S":0.002964, "M": 0.090472, "L": 9.856659,"SM": 0.021467,"XL": 79.626002}'
