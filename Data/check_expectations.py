@@ -42,7 +42,7 @@ for bench, csv in collations.items():
         if name.suffix != '.csv':
             continue
         # Stapled files only
-        if "all_arafat" not in name.name:
+        if "A3_T1_" not in name.name:
             continue
         any_found = True
         load = pd.read_csv(name)
@@ -93,7 +93,7 @@ for bench, csv in collations.items():
                 else:
                     print("\t"+f"{expect} has {n_results}/{expectation[expect]} records (missing {expectation[expect]-n_results})")
     if not any_found:
-        raise ValueError(f"No CSVs with prefix 'all_arafat' found in {check_path}")
+        raise ValueError(f"No CSVs with prefix 'A3_T1' found in {check_path}")
     if len(missing_mmp) > 0:
         print(f"Benchmark {bench} missing these MMP files:")
         print("\n".join(missing_mmp))
