@@ -326,5 +326,5 @@ def scan(basepath, altpaths=None):
             print("\\hline")
         table_suffix()
 
-scan(pathlib.Path('rawsearches'), altpaths=[pathlib.Path('reordered_searches')])
+scan(pathlib.Path('../Data/rawsearches'), altpaths=[pathlib.Path('../Data/reordered_searches')])
 
