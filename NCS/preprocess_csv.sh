@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #static variables
-_3MM_DT='{"S":0.002964, "M": 0.090472, "L": 9.856659,"SM": 0.021467,"XL": 79.626002}'
-HEAT3D_DT='{"S":0.000607, "M": 0.012067, "L": 5.111083,"SM": 0.003435,"XL": 48.378053}'
-AMG_DT='{"S":1.3790032863616943, "M": 3.6291158199310303, "L": 10.488572359085085,"SM": 1.4934616088867188,"XL": 16.131489753723145}'
-RSBENCH_DT='{"S":0.188405, "M": 0.93408, "L": 4.40241,"SM": 0.6588400000000001,"XL": 9.484095}'
-SYR2K_DT='{"S":0.000245, "M": 0.007642, "L": 0.195827,"SM": 0.001656,"XL": 1.8196419999999998}'
-SW4LITE_DT='{"S":4.2706800000000005, "M": 8.6565, "L": 13.0948,"SM": 5.27491,"XL": 16.0983}'
+# _3MM_DT='{"S":0.002964, "M": 0.090472, "L": 9.856659,"SM": 0.021467,"XL": 79.626002}'
+# HEAT3D_DT='{"S":0.000607, "M": 0.012067, "L": 5.111083,"SM": 0.003435,"XL": 48.378053}'
+# AMG_DT='{"S":1.3790032863616943, "M": 3.6291158199310303, "L": 10.488572359085085,"SM": 1.4934616088867188,"XL": 16.131489753723145}'
+# RSBENCH_DT='{"S":0.188405, "M": 0.93408, "L": 4.40241,"SM": 0.6588400000000001,"XL": 9.484095}'
+# SYR2K_DT='{"S":0.000245, "M": 0.007642, "L": 0.195827,"SM": 0.001656,"XL": 1.8196419999999998}'
+# SW4LITE_DT='{"S":4.2706800000000005, "M": 8.6565, "L": 13.0948,"SM": 5.27491,"XL": 16.0983}'
 
 TUNERS=(gc bliss gptune opentuner)  
 PCTS=(50 60 70 80 90) 
@@ -22,7 +22,29 @@ BENCHMARK="_3mm" #change this variable to change benchmark
 # "rsbench"
 # "syr2k"
 # "sw4lite"
-DEFAULT_TIME="$_3MM_DT" #change this variable based on benchmark variable
+
+if [[ "$BENCHMARK" == "_3mm" ]]; then
+    DEFAULT_TIME='{"S":0.002964, "M": 0.090472, "L": 9.856659,"SM": 0.021467,"XL": 79.626002}'
+
+elif [[ "$BENCHMARK" == "heat3d" ]]; then
+    DEFAULT_TIME='{"S":0.000607, "M": 0.012067, "L": 5.111083,"SM": 0.003435,"XL": 48.378053}'
+
+elif [[ "$BENCHMARK" == "amg" ]]; then
+    DEFAULT_TIME='{"S":1.3790032863616943, "M": 3.6291158199310303, "L": 10.488572359085085,"SM": 1.4934616088867188,"XL": 16.131489753723145}'
+
+elif [[ "$BENCHMARK" == "syr2k" ]]; then
+    DEFAULT_TIME='{"S":0.000245, "M": 0.007642, "L": 0.195827,"SM": 0.001656,"XL": 1.8196419999999998}'
+
+elif [[ "$BENCHMARK" == "sw4lite" ]]; then
+    DEFAULT_TIME='{"S":4.2706800000000005, "M": 8.6565, "L": 13.0948,"SM": 5.27491,"XL": 16.0983}'
+
+elif [[ "$BENCHMARK" == "rsbench" ]]; then
+    DEFAULT_TIME='{"S":0.188405, "M": 0.93408, "L": 4.40241,"SM": 0.6588400000000001,"XL": 9.484095}'
+
+else
+    echo "Unsupported BENCHMARK value: $BENCHMARK" >&2
+    exit 1
+fi
 
 #extracts filenames, calculates speedup, and removes duplicates entries
 python3 $SCRIPT --inp_path=$INP_PATH --out_path=$OUT_PATH  --csv_files="${BENCHMARK}_collated.csv" --default_time="$DEFAULT_TIME" --filename=yes  --out_file="${BENCHMARK}_collated_speedup.csv" --drop_duplicate=true --dup_col=filename
