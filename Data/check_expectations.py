@@ -9,18 +9,18 @@ import pathlib
 
 collations = {
         # Polybench/C
-        'syr2k': pd.read_csv('collations/syr2k_collated.csv'),
-        '_3mm': pd.read_csv('collations/_3mm_collated.csv'),
-        'heat3d': pd.read_csv('collations/heat3d_collated.csv'),
+        'syr2k': pd.read_csv('../Extract_A1_Here/syr2k_collated.csv'),
+        '_3mm': pd.read_csv('../Extract_A1_Here/_3mm_collated.csv'),
+        'heat3d': pd.read_csv('../Extract_A1_Here/heat3d_collated.csv'),
         # ECP
-        'amg': pd.read_csv('collations/amg_collated.csv'),
-        'rsbench': pd.read_csv('collations/rsbench_collated.csv'),
-        'sw4lite': pd.read_csv('collations/sw4lite_collated.csv'),
+        'amg': pd.read_csv('../Extract_A1_Here/amg_collated.csv'),
+        'rsbench': pd.read_csv('../Extract_A1_Here/rsbench_collated.csv'),
+        'sw4lite': pd.read_csv('../Extract_A1_Here/sw4lite_collated.csv'),
         }
 
 expected_searches = ['GaussianCopula','bliss','opentuner','GPTune']
 
-check_dir = pathlib.Path('arafat_all_convert')
+check_dir = pathlib.Path('A2_Results_convert')
 
 for bench, csv in collations.items():
     names = sorted(set(csv['source']))
