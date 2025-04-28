@@ -16,9 +16,9 @@ This directory includes materials to produce the figures and tables in the paper
 
 [../Data/reordered\_searches](../Data/reordered_searches): All CSVs of searches after reordering with NCS (requires running processes in [../Data](../Data/) to prepare for this directory's use)
 
-[combine\_seeds](./combine_seeds) Output storage location for stapled searches produced by `generate_all_figures.sh`
+[combine\_seeds](./combine_seeds): Output storage location for stapled searches produced by `generate_all_figures.sh`
 
-[Figures](./Figures) Output storage location for figure images produced by `general_results_figures.py`
+[Figures](./Figures): Output storage location for figure images produced by `general_results_figures.py`
 
 [stapler.py](./stapler.py): Used to append multiple CSVs together for ease of subsequent postprocessing (execution: `python3 stapler.py --help` for arguments in detail)
 
