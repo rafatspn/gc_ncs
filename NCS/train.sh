@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SCRIPT="REPLACE_THIS/multi_cnn_v3.py"
-CSV_PATH="REPLACE_THIS" #path to the directory that contains the csv files generateed in the csv preprocessing step
-IR_PATH="REPLACE_THIS" #path to the directory that contains trimmed IRs
-OUT_PATH="REPLACE_THIS" #path to the directory to save the generated result csv
+SCRIPT="REPLACE_THIS/multi_cnn_v3.py" # e.g YOUR_PATH/NCS/model/multi_cnn_v3.py
+CSV_PATH="REPLACE_THIS" #path to the directory that contains the csv files generateed in the csv preprocessing step e.g YOUR_PATH/NCS/collated/_3mm
+IR_PATH="REPLACE_THIS" #path to the directory that contains trimmed IRs e.g DATA_PATH/_3mm_trimmed
+OUT_PATH="REPLACE_THIS" #path to the directory to save the generated result csv e.g e.g YOUR_PATH/NCS/result
 
 BENCHMARK="_3mm"
 # other values of benchmark
