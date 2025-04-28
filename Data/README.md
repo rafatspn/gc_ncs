@@ -5,6 +5,8 @@ Prior to starting these tasks, all data should be moved into a subdirectory name
 
 ---
 
+## Run both steps automatically:
+
 [conversion.sh](./conversion.sh): Driver bash script that executes data conversion from NCS to postprocessing format (execution: `./conversion.sh` -- no arguments supported).
 This script executes all other scripts in the directory, but we detail them below to assist in their understanding and usage.
 
