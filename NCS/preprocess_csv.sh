@@ -12,9 +12,9 @@ TUNERS=(gc bliss gptune opentuner)
 PCTS=(50 60 70 80 90) 
 
 #changeable variables
-SCRIPT="REPLACE_THIS/preprocess_csv.py" 
-INP_PATH="REPLACE_THIS" #path to the collated csv for a particular benchmark
-OUT_PATH=$INP_PATH
+SCRIPT="REPLACE_THIS/preprocess_csv.py" #e.g YOUR_PATH/NCS/utils/preprocess_csv.py
+INP_PATH="REPLACE_THIS" #path to the collated csv file for a particular benchmark e.g. YOUR_PATH/NCS/collated/_3mm
+OUT_PATH=$INP_PATH #path to the directory where generated csv files should be saved e.g. YOUR_PATH/NCS/collated/_3mm
 BENCHMARK="_3mm" #change this variable to change benchmark 
 # other values of benchmark
 # "heat3d"

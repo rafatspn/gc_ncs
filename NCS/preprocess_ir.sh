@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SCRIPT="REPLACE_THIS/trim_irs.py" #trim_ir.py path
-INP_PATH="REPLACE_THIS" #source of untrimmed IRs
-OUT_PATH="REPLACE_THIS" #destination of trimmed IRs
-BENCHMARK="REPLACE_THIS" #Benchmark name
+SCRIPT="REPLACE_THIS/trim_irs.py" #trim_ir.py path e.g YOUR_PATH/NCS/utils/preprocess_.pyir
+INP_PATH="REPLACE_THIS" #source of untrimmed IRs e.g DATA_PATH/_3mm
+OUT_PATH="REPLACE_THIS" #destination of trimmed IRs e.g. DATA_PATH/_3mm_trimmed
+BENCHMARK="REPLACE_THIS" #Benchmark name e.g. _3mm
 
 #BENCHMARKs: _3mm, heat3d, amg, syr2k, sw4lite, rsbench
 
