@@ -7,7 +7,7 @@ import pathlib
 
 command = ['python3',
            'reconfigure_from_mmp.py',
-           'collations/{}_collated.csv',
+           '../Extract_A1_Here/{}_collated.csv',
            '--from',
            '{}',
            '--to',
