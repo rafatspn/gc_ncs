@@ -16,7 +16,7 @@ for rawdir in sorted(pathlib.Path('rawsearches').iterdir()):
         if not other_csv.exists():
             print(f"Did not find reordered search for '{other_csv}'")
             command = "python3 endToEnd.py "
-                      "arafat_all_convert/{bench}/all_arafat_{bench}.csv "
+                      "A2_Results_convert/A3_T1_{bench}/{bench}.csv "
                       "--rank-column score "
                       "--invert-sort "
                       "--searches {expect_csv} "
