@@ -6,7 +6,7 @@ for c in ${collate[@]}; do
     for t in ${types[@]}; do
         todo=("python3 "
               "stapler.py "
-              "--from rawsearches/${c}/*${t}*SM*.csv "
+              "--from ../Data/rawsearches/${c}/*${t}*SM*.csv "
               "--to combine_seeds/${c}/${t}_SM.csv "
               "--overwrite "
           );
@@ -15,7 +15,7 @@ for c in ${collate[@]}; do
         eval "${todo}";
         todo=("python3 "
              "endToEnd.py "
-             "arafat_all_convert/${c}/all_arafat_${c}.csv "
+             "A2_Results_convert/${c}/A3_T1_${c}.csv "
              "--rank-column score "
              "--invert-sort "
              "--searches combine_seeds/${c}/${t}_SM.csv" #search_compilations/${c}/*${t}*.csv "
@@ -29,7 +29,7 @@ for c in ${collate[@]}; do
         fi;
         todo=("python3 "
               "stapler.py "
-              "--from rawsearches/${c}/*${t}*XL*.csv "
+              "--from ../Data/rawsearches/${c}/*${t}*XL*.csv "
               "--to combine_seeds/${c}/${t}_XL.csv "
               "--overwrite "
           );
@@ -38,7 +38,7 @@ for c in ${collate[@]}; do
         eval "${todo}";
         todo=("python3 "
              "endToEnd.py "
-             "arafat_all_convert/${c}/all_arafat_${c}.csv "
+             "A2_Results_convert/${c}/A3_T1_${c}.csv "
              "--rank-column score "
              "--invert-sort "
              "--searches combine_seeds/${c}/${t}_XL.csv" #search_compilations/${c}/*${t}*.csv "
