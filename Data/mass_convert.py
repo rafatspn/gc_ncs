@@ -1,6 +1,6 @@
 """
-    Runs `reconfigure_from_mmp.py` on everything in `arafat_all` and pushes
-    the results into `arafat_all_convert`
+    Runs `reconfigure_from_mmp.py` on everything in `A2_Results` and pushes
+    the results into `A2_Results_convert`
 """
 import subprocess
 import pathlib
@@ -13,13 +13,11 @@ command = ['python3',
            '--to',
            '{}',
            ]
-dir_in = pathlib.Path('arafat_all')
-dir_out = pathlib.Path('arafat_all_convert')
+dir_in = pathlib.Path('A2_Results')
+dir_out = pathlib.Path('A2_Results_convert')
 if len(list(dir_in.iterdir())) == 0:
     raise ValueError("Nothing to do in {dir_in}")
 for subd in dir_in.iterdir():
-    if subd.stem != 'syr2k':
-        continue
     if not subd.is_dir():
         print(f"Skip non-directory '{subd}'")
         continue
