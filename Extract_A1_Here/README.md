@@ -7,6 +7,7 @@
 Download all of the IR and CSV data from [the Zenodo artifact](https://zenodo.org/records/15282775) using the "Download All" button.
 Please note that the archive download is 3.2 GB, but after fully unzipping the total dataset size on disk is 24.82 GB.
 Move the file here and unzip it, then unzip all directories within the archive here as well.
+This can be accomplished via the shell command: ``for f in `ls *.zip`; do unzip $f; done;``
 
 The resulting file structure should be:
 
