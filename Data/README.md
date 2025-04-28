@@ -1,11 +1,11 @@
 # Data
 
 This directory includes materials for postprocessing NCS and other search data (as CSVs; no IR data needs to be present here).
-Prior to starting these tasks, all data should be moved into a subdirectory named `arafat_all_convert`, with a separate subdirectory beneath this level per benchmark (ie: arafat\_all\_convert/3mm, for the Polybench/C 3mm benchmark).
+Prior to starting these tasks, all data should be moved into a subdirectory named `A2_Results_convert`, with a separate subdirectory beneath this level per benchmark (ie: A2\_Results\_convert/3mm, for the Polybench/C 3mm benchmark).
 
 ---
 
-[arafat\_conversion.sh](./arafat_conversion.sh): Driver bash script that executes data conversion from NCS to postprocessing format (execution: `./arafat_conversion.sh` -- no arguments supported).
+[conversion.sh](./conversion.sh): Driver bash script that executes data conversion from NCS to postprocessing format (execution: `./conversion.sh` -- no arguments supported).
 This script executes all other scripts in the directory, but we detail them below to assist in their understanding and usage.
 
 ---
