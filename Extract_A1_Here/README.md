@@ -14,9 +14,12 @@ The resulting file structure should be:
 ```
 ./*_collated.csv
 ./*/mmp_*.ll
+./syr2k_all_SM.csv
+./syr2k_all_XL.csv
 ```
 
 Where \*'s will be replaced with each benchmark name (3mm, amg, heat3d, rsbench, sw4lite, syr2k).
 Note that syr2k has TWO archives; the "exhaustive" archive includes every single IR for the entire tuning space of the syr2k benchmark for the SM and XL dataset sizes.
+The performance of these exhaustive datasets are tracked separately in syr2k\_all\_SM.csv and syr2k\_all\_XL.csv, respectively.
 The other syr2k archive includes ONLY training data (covering sizes S, M, and L), and is non-exhaustive in nature.
 
