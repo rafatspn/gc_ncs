@@ -8,9 +8,9 @@ OUT_PATH="REPLACE_THIS" #path to the directory to save the generated result csv
 BENCHMARK="_3mm"
 # other values of benchmark
 # "heat3d"
+# "syr2k"
 # "amg"
 # "rsbench"
-# "syr2k"
 # "sw4lite"
 
 python3 $SCRIPT --csv_path=$CSV_PATH --csv_files="${BENCHMARK}_collated_gc.csv" --ir_path=$IR_PATH --out_path=$OUT_PATH --out_file="gc_result_${BENCHMARK}.csv"
