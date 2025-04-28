@@ -28,7 +28,7 @@ def main():
     args = parser.parse_args()
 
     for filename in os.listdir(args.inp_path):
-        if filename.endswith(args.file_type):
+        if filename.endswith(".ll"):
             # print(f"Processing: {filename}")
             file_path = os.path.join(args.inp_path, filename)
             if os.path.isfile(file_path):
