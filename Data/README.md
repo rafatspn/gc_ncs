@@ -1,7 +1,7 @@
 # Data
 
 This directory includes materials for postprocessing NCS and other search data (as CSVs; no IR data needs to be present here).
-Prior to starting these tasks, all data should be moved into a subdirectory named `A2_Results_convert`, with a separate subdirectory beneath this level per benchmark (ie: A2\_Results\_convert/3mm, for the Polybench/C 3mm benchmark).
+Prior to starting these tasks, all data should be moved into a subdirectory named `A2_Results`, with a separate subdirectory beneath this level per benchmark (ie: A2\_Results/3mm, for the Polybench/C 3mm benchmark).
 
 ---
 
