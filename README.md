@@ -1,5 +1,11 @@
 # gc_ncs
 
+## Setup / Install
+
+The repository includes Python scripts that are designed for use with Python 3.9+.
+You can install the requisite packages via `pip install -r requirements.txt` (see [requirements.txt](./requirements.txt))
+Alternatively, using Anaconda you can create a new environment for this project and install all packages via `conda create -f environment.yml` (see [environment.yml](./environment.yml))
+
 ---
 
 ## A1: Zenodo Artifacts
