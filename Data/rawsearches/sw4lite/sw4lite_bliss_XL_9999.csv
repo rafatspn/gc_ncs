@@ -1,0 +1,384 @@
+p0,p1,p2,p3,p4,p5,p6,p7,objective,actually_measured,lookahead,model_name,acquisition_function
+2,cores,close,static, ,#pragma unroll (6),#pragma omp for, ,-27.735433333333333,True,-1,initial_sampling,Random_Sampling
+256,sockets,master,dynamic,#pragma omp parallel for,#pragma unroll (6),#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-24.691699999999997,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for nowait, ,-35.16843333333333,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,cores,master,dynamic, ,#pragma unroll (6),#pragma omp for, ,-32.73186666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,sockets,master,dynamic,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-38.33553333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+64,threads,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.155366666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,dynamic,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-38.70563333333334,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,threads,spread,dynamic,#pragma omp parallel for, ,#pragma omp for nowait, ,-38.45616666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,sockets,master,dynamic, , ,#pragma omp for nowait, ,-33.2192,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,sockets,master,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.9422,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-30.99036666666667,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,cores,spread,dynamic,#pragma omp parallel for,#pragma unroll (6),#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-34.43803333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,sockets,master,dynamic,#pragma omp parallel for,#pragma unroll (6),#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-36.71613333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+64,sockets,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.76293333333333,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+64,cores,close,static, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-31.995733333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-36.983133333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,sockets,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-26.8593,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+64,sockets,master,dynamic, ,#pragma unroll,#pragma omp for, ,-31.517633333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,sockets,close,dynamic,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-31.575933333333335,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+64,sockets,close,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-29.428366666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.2417,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,dynamic, ,#pragma unroll,#pragma omp for, ,-29.963399999999996,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,static, ,#pragma unroll,#pragma omp for, ,-23.202366666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,master,dynamic, ,#pragma unroll,#pragma omp for, ,-32.70793333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.5672,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-33.7578,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,static, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-31.862366666666663,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,close,static, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.283300000000004,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+64,threads,spread,static, ,#pragma unroll,#pragma omp for, ,-32.73266666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,spread,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-34.590266666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,static, ,#pragma unroll (6),#pragma omp for, ,-32.737433333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,sockets,close,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.790933333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,spread,static, ,#pragma unroll,#pragma omp for, ,-32.769933333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,static, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.80826666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,static, , ,#pragma omp for, ,-32.612833333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+4,sockets,close,dynamic, ,#pragma unroll,#pragma omp for, ,-30.525854827069622,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+4,sockets,close,static, ,#pragma unroll,#pragma omp for, ,-31.061109556956303,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,cores,master,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-14.16440192467753,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+64,sockets,close,static, ,#pragma unroll,#pragma omp for, ,-30.8767888521226,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,cores,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-20.79618079449495,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+2,sockets,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-31.33583571133731,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-29.61343928441713,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,master,dynamic, ,#pragma unroll,#pragma omp for, ,-28.348026229207054,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,master,dynamic, ,#pragma unroll,#pragma omp for, ,-28.284771950766483,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,master,dynamic, ,#pragma unroll,#pragma omp for, ,-32.8045,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,spread,dynamic, ,#pragma unroll,#pragma omp for, ,-32.75236666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-32.485166666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,master,dynamic, ,#pragma unroll,#pragma omp for, ,-31.99636666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-33.78216666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,spread,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-28.477658733795195,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,master,dynamic, ,#pragma unroll,#pragma omp for, ,-29.803073783544306,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,spread,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-29.731540639223834,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,spread,dynamic, ,#pragma unroll,#pragma omp for, ,-29.71857027224206,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,spread,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-29.726347764122117,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,master,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-29.708484811053296,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-29.713194031442015,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-29.709714525219216,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,spread,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.477000000000004,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,spread,dynamic, ,#pragma unroll,#pragma omp for, ,-32.636500000000005,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,master,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.7201,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,close,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.71086666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,master,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.60463333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,threads,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-30.264125309124534,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+8,cores,spread,dynamic, ,#pragma unroll,#pragma omp for, ,-30.410218509542034,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,master,dynamic, ,#pragma unroll,#pragma omp for, ,-30.292548176691525,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,spread,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-30.322484967990572,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,spread,dynamic, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-29.843062467890043,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,spread,dynamic, ,#pragma unroll,#pragma omp for, ,-30.124155284952767,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+4,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-30.192301922910467,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-30.352409787035768,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-30.348297309208565,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,sockets,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.233799999999995,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+48,threads,master,dynamic,#pragma omp parallel for,#pragma unroll (6),#pragma omp for nowait, ,-34.42073333333334,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,sockets,master,dynamic, , ,#pragma omp for nowait, ,-32.70106666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+16,sockets,master,dynamic,#pragma omp parallel for, ,#pragma omp for, ,-32.97443333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+48,threads,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.94576666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+2,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-20.544533333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-20.172299999999996,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-20.963,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-20.50923333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+4,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-20.532866666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-30.2782270704039,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-28.817305074929735,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,master,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-28.672452497268893,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-0.13752884976565838,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+2,cores,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-28.702361453830584,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-20.449233333333336,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,cores,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-22.332533333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-21.900000000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-23.990433333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,close,dynamic, ,#pragma unroll,#pragma omp for, ,-20.389466666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-26.259910734630893,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,close,static, ,#pragma unroll,#pragma omp for, ,-26.8304441925959,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,sockets,close,static, ,#pragma unroll,#pragma omp for, ,-23.613021850585938,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,cores,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-28.44870865146745,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-26.06163583980793,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-26.59274256824341,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,cores,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-27.024252762764505,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-20.97363333333333,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+192,threads,master,static,#pragma omp parallel for,#pragma unroll (6),#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-23.256766666666664,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+96,sockets,master,static, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.113199999999996,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+32,threads,spread,static,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.500566666666668,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+128,sockets,close,dynamic, , ,#pragma omp for, ,-20.4974,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+128,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-0.8863536729801909,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+192,cores,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-26.739076515473545,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,sockets,master,dynamic, ,#pragma unroll,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.460833333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,sockets,close,static,#pragma omp parallel for,#pragma unroll (6),#pragma omp for, ,-22.3133,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-22.4021,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+96,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-21.81656666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-22.235500000000002,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,sockets,close,static, ,#pragma unroll,#pragma omp for, ,-24.765887786090197,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,sockets,close,dynamic, , ,#pragma omp for, ,-20.497406005859375,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+2,cores,close,dynamic, , ,#pragma omp for, ,-29.774161528685568,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,threads,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-22.3306,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-24.0603,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-24.163133333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,close,static, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-19.967766666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,close,static, ,#pragma unroll,#pragma omp for, ,-20.206500000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,master,static, , ,#pragma omp for nowait, ,-1.3726175614325169e-05,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+48,sockets,master,static, ,#pragma unroll (6),#pragma omp for, ,-28.637424378307394,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-23.385288179799375,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,-23.64589443413953,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-3.7828389237538342,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+16,cores,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-2.4642809007885345,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,cores,close,static, ,#pragma unroll,#pragma omp for, ,-22.95694737452041,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+4,cores,master,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-3.2440607405276203,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+32,sockets,master,static, ,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.483800000000002,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,sockets,close,dynamic, , ,#pragma omp for, ,-20.526266666666668,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+16,cores,master,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.64956666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,cores,master,static, , ,#pragma omp for nowait, ,-20.5646,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+16,cores,master,dynamic,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.694999999999997,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,cores,spread,static,#pragma omp parallel for,#pragma unroll (6),#pragma omp for, ,-23.293212463309406,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,master,static, , ,#pragma omp for, ,-1.84747143592119,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,cores,close,static,#pragma omp parallel for, ,#pragma omp for, ,-21.595136013466472,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-26.607803946103886,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for, ,-21.0586400619651,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-24.17016666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for, ,-20.601566666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.307866666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-24.134033333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static,#pragma omp parallel for, ,#pragma omp for, ,-23.72763333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-3.775595045157035,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,cores,close,static, , ,#pragma omp for, ,-21.226033031137945,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for, ,-20.690293476462934,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static,#pragma omp parallel for, ,#pragma omp for, ,-21.022446000847825,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, ,#pragma unroll,#pragma omp for, ,-24.15935135914623,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,sockets,master,dynamic,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-7.07005518686782,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+192,cores,spread,static, , ,#pragma omp for, ,-21.16413834682811,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for nowait, ,-20.98728374471365,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for, ,-23.732266666666664,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for, ,-20.5278,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for, ,-20.5846,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,master,static, , ,#pragma omp for, ,-20.447033333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for, ,-24.1237,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.95430211144526,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.867643489693318,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static,#pragma omp parallel for, ,#pragma omp for nowait, ,-21.092320042170964,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,cores,master,dynamic,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-28.15202340727721,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,cores,master,static, , ,#pragma omp for, ,-20.605858095764518,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-0.8839831329914372,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,cores,master,static, , ,#pragma omp for, ,-20.596693272758007,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for, ,-20.586258456681335,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,master,static,#pragma omp parallel for, ,#pragma omp for, ,-23.326766666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.508166666666664,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for, ,-20.555733333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for, ,-20.516266666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-24.067533333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,spread,dynamic, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,0.0,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+16,sockets,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-1.829669530810932,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.814272154175136,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.044698419305103,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.23416300556585,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-5.898136950068513,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.071317659234303,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,threads,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.57119899047895,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.094399999999997,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.123966666666664,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.603066666666663,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.438266666666664,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.55796666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-19.630509802226474,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-19.763764115353325,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-19.621380620949203,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,cores,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.319186384935744,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,cores,close,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,0.0,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,threads,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.531479661398414,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-2.4697954042996737,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+96,cores,master,static,#pragma omp parallel for, ,#pragma omp for nowait, ,-9.031506419181824,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,cores,close,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.846084786944626,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,master,static, , ,#pragma omp for, ,-20.590833333333332,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,cores,close,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.619633333333336,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+48,cores,master,static, , ,#pragma omp for nowait, ,-20.632033333333336,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+32,cores,close,static,#pragma omp parallel for, ,#pragma omp for nowait, ,-20.944300000000002,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,sockets,master,static, ,#pragma unroll,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.4544,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+192,cores,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.42538889325494,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,cores,master,static, , ,#pragma omp for, ,-20.525966666666665,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+2,cores,close,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-36.639133333333334,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+8,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.102233333333334,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+96,cores,spread,dynamic, , ,#pragma omp for, ,-20.390033333333335,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+32,sockets,spread,static, ,#pragma unroll,#pragma omp for nowait, ,-20.468966666666663,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,cores,close,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-24.152033333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.58246666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-24.1968,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.58813333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.6435,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-19.8228776340052,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.859297109265327,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,cores,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-2.4642825717968924,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+192,cores,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.579035743744882,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,sockets,close,dynamic, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-0.14575993218207145,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+192,threads,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.04447118533936,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.321155576058302,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.34161204817413,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-24.269966666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-24.18446666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-23.68913333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.073566666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.5078,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-19.32925917679868,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-19.42367440436467,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-19.70451651896935,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,sockets,close,static, , ,#pragma omp for nowait, ,-4.77260183445996,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.562470993494035,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-7.834861755371094,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+192,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.567749979531715,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.295317057340018,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-21.089233333333336,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-24.163833333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.4472,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.506866666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.5834,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,spread,dynamic, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,0.0,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,cores,spread,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.373999681994828,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.007022230307726,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-4.118581771850586,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+192,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.177333168183026,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.839749188875967,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.92584314878828,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.972723542643017,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,cores,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-21.161033333333336,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+16,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.5166,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+96,cores,master,static, , ,#pragma omp for nowait, ,-20.4888,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+48,cores,close,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.894866666666665,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+96,cores,master,static,#pragma omp parallel for,#pragma unroll,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-21.592233333333336,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.889985505637878,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.549933333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.4826,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.560466666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.537566666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.543233333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.369416940905232,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-3.5337136138057765,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,threads,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.127652217288176,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.77130104904237,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.97045075276887,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.858926671517104,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,master,static, , ,#pragma omp for nowait, ,-4.8154608840566376e-05,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.241181560844613,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.96672444231109,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.507733333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.540366666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.641433333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.483500000000003,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-21.248,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.11923989165785,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.985110551903325,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,threads,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.08855907235269,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.11381967099902,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.840492761001283,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.950300625842004,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.13171019146073,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+4,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-4.231315844394927,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,cores,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.104966666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.25146666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.5609,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.546899999999997,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.6016,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.74430334384354,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.84395065158437,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.84040638362821,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,sockets,close,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-4.045578006654978,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.789261963913734,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,0.002815913541585089,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,sockets,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-18.875730815260518,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,master,static, , ,#pragma omp for nowait, ,-1.1906600745154039e-05,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,sockets,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.91000138230573,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,cores,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-21.829166666666666,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,sockets,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.44496666666667,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+192,sockets,close,static,#pragma omp parallel for,#pragma unroll (6),#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-23.196499999999997,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+128,cores,spread,dynamic, ,#pragma unroll (6),#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.729033333333334,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+4,threads,master,dynamic, ,#pragma unroll (6),#pragma omp for nowait, ,-20.538933333333333,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+48,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.486866666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.166,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.158,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.6566,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.5399,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.528202764912187,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.643094945038474,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.61623359848838,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.61531438679683,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.67825105044453,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,sockets,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-5.357480643203329,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+192,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.609031139233732,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.636352073844048,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,spread,dynamic, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.444533333333336,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+8,sockets,close,dynamic,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.664166666666663,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+16,cores,close,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.649600000000003,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+16,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.4143,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+8,sockets,close,dynamic, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-28.88403333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.623181094568196,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.207433333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.86323333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.10136666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.36536666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,threads,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.31673333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-18.67721281959057,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.308768152287062,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.246069572951363,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,close,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-4.958394668388937,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+32,sockets,close,static,#pragma omp parallel for,#pragma unroll,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-0.13750369225904824,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,threads,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.530499999999996,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.967166666666664,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,sockets,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.976,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.9736,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+4,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.01853333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.623261341939454,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.62574054619597,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.622130112314988,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.602992227611328,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,cores,spread,dynamic, , ,#pragma omp for nowait, ,0.0,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,threads,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.94296666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.983466666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,cores,close,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.7682,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.930266666666675,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,cores,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.9566,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.898259401469787,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.295501809978973,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,sockets,spread,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.968620163967337,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-1.8296928405761719,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,cores,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.909217097934913,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,close,dynamic, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.76556666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+16,sockets,spread,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.2726,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+32,cores,close,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.62466666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+8,sockets,close,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.403666666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+64,sockets,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.87029999999999,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+192,sockets,master,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-37.00366666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,cores,master,static, , ,#pragma omp for nowait, ,-32.86976666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.92113333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.896899999999995,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.10143333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,spread,dynamic, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,6.648456494476407e-08,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,sockets,master,static,#pragma omp parallel for, ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-19.93200973646183,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.081870848893857,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,master,dynamic, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,2.636005401611328,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+16,cores,spread,dynamic, , ,#pragma omp for nowait, ,-8.887738333611779,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,sockets,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.23225966035146,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.7428,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.86793333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,sockets,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.223600000000005,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.746233333333336,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.276199999999996,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-8.439318533311274,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,sockets,close,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.467890271489424,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,cores,master,static,#pragma omp parallel for,#pragma unroll,#pragma omp for, ,0.0,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,sockets,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.408049077482072,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,sockets,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-7.480796423093796,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,threads,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.36015752725043,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,threads,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.391933333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,sockets,master,static, , ,#pragma omp for nowait, ,-32.76666666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-33.17783333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,threads,master,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-32.973366666666664,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,threads,close,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.95953333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,cores,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.656062647721825,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,sockets,spread,dynamic, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,12.147272615068681,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+192,threads,spread,static, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-20.65901339278484,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,cores,master,dynamic, , ,#pragma omp for nowait,MPI_Barrier(MPI_COMM_WORLD);,-2.055819606523419,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+192,sockets,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.430040364706876,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,sockets,master,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-20.392354280108904,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,cores,spread,static, , ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-32.997033333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,spread,static,#pragma omp parallel for, ,#pragma omp for,MPI_Barrier(MPI_COMM_WORLD);,-34.837199999999996,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,sockets,master,static, , ,#pragma omp for nowait, ,-32.88296666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,sockets,master,static, , ,#pragma omp for nowait, ,-33.12813333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,sockets,master,static, , ,#pragma omp for nowait, ,-33.559400000000004,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei

@@ -1,0 +1,287 @@
+p0,p1,p2,p3,p4,p5,objective,actually_measured,lookahead,model_name,acquisition_function
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,50,20,-0.004257333333333334,True,-1,initial_sampling,Random_Sampling
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,256,4,128,-0.0036125,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,256,2048,128,-0.0033956666666666666,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,32,20,-0.006223666666666666,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , , ,256,2048,128,-0.0022076666666666664,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,8,4,-0.009067833333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,256,2048,128,-0.0047564999999999994,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",100,8,100,-0.004762333333333334,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , , ,256,2048,128,-0.0015856666666666669,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,256,2048,128,-0.0023501666666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,2048,100,-0.0035386666666666674,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,80,128,100,-0.0048,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,2048,128,-0.001887,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,50,100,256,-0.0016188333333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,128,100,-0.001845,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,64,128,-0.0026196666666666664,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,2048,128,-0.002879166666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , , ,128,100,100,-0.0017505,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,128,128,-0.0038926666666666662,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , , ,256,2048,128,-0.0021918333333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,96,64,128,-0.003496833333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,128,16,-0.002135,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,128,8,-0.0021418333333333337,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,4,80,32,-0.0023405,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,16,80,80,-0.0023133333333333335,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,80,100,4,-0.0030585,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,96,2048,256,-0.003351166666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,256,128,256,-0.004413,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,100,128,-0.0016435,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,128,32,-0.0032258333333333327,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ , , ,50,128,256,-0.0023234999999999996,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,80,256,-0.0025424999999999996,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,2048,256,-0.0029668333333333335,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ , , ,32,100,8,-0.0029203333333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,128,64,-0.0023393333333333335,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ , , ,32,128,16,-0.0023821666666666665,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,16,80,-0.0020123333333333334,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,128,100,-0.0035623333333333327,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",128,80,100,-0.0027086666666666665,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,128,32,-0.0022023333333333335,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,64,128,-0.0016170000000000002,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ , , ,50,128,128,-0.0021605000000000005,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,64,8,-0.0081745,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,50,128,-0.002573333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,256,100,128,-0.0018151666666666665,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,128,128,-0.0019241666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,50,128,-0.002702833333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",100,128,128,-0.001519331209237862,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,128,100,128,-0.0013752924278378487,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,64,80,128,-0.0011945228664522745,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,80,100,128,-0.0010834452074455214,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",64,8,64,-0.002536,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",64,2048,8,-0.002596,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",64,100,128,-0.001971,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,80,64,-0.0024521666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",64,100,128,-0.0025603333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,80,80,128,-0.0008096965029835701,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,80,100,128,-0.001083583025218715,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,256,80,128,-0.002108612111464403,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,50,32,256,0.014610469848207686,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,256,128,32,-0.0017291164531343384,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,128,100,-0.0026706666666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , , ,128,2048,16,-0.0027483333333333335,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,16,128,-0.002894833333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , , ,96,128,256,-0.0014886666666666668,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",128,2048,64,-0.003035333333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,2048,32,-0.003526666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,50,16,4,-0.019577833333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,32,256,-0.003040666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,50,50,256,-0.0015101666666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,4,128,-0.0023535,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,32,32,256,0.015902698677933813,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",128,50,256,-0.0031632833119079606,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,32,32,256,-0.0029808333333333336,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,50,20,256,-0.0017503333333333336,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,256,32,128,-0.0034446666666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,50,256,-0.0025491666666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,32,256,-0.002326,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,32,32,256,0.015902698679418847,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,32,32,256,0.015902698675925614,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,64,2048,128,-0.0019082971848547459,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,128,8,-0.009087833333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,20,2048,32,-0.003956166666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,20,50,-0.004089166666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,64,64,32,-0.0047343333333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,32,50,256,-0.0018371666666666669,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,8,2048,80,-0.003256263702724027,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,32,32,256,0.015902664524694465,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,20,128,-0.0021676302446369533,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,128,16,-0.002125182398115451,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,32,256,-0.0049268333333333325,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,20,32,4,-0.008750833333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,4,16,-0.002751,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,80,32,4,-0.008785833333333335,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,2048,20,-0.002720666666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , , ,20,4,128,-0.0017976666666666668,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ , , ,96,4,16,-0.0026428333333333334,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,32,20,50,-0.006141166666666667,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ , , ,20,2048,256,-0.0024115,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ , , ,256,20,64,-0.0015001666666666668,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,20,2048,256,-1.257845955240249e-05,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",64,128,50,-0.002562,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,32,32,256,-0.002119,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,64,128,-0.005749333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,16,2048,4,-0.008825666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,50,32,256,-0.0018273333333333336,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,20,32,256,-0.002464833333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,32,32,256,-0.0021228333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",32,32,256,-0.0025436666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,256,64,64,-0.0035303333333333332,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,256,8,256,-0.0037505,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,8,0.30261761974464285,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,16,0.18630946043588767,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,128,256,-0.0024796601314868985,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,8,0.30261762249390306,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,2048,8,-0.0030883333333333336,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,16,-0.0038805,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,4,4,-0.0026455000000000003,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,16,8,20,-0.0026133333333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,8,-0.0028528333333333327,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,2048,8,-0.0023916666666666665,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,8,-0.0023231666666666665,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,4,16,-0.002659166666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,2048,20,-0.0025103333333333336,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,2048,16,-0.004570166666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,2048,8,-0.008586333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,32,256,-0.004444666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,256,16,16,-0.0025721666666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,8,2048,16,-0.0027498333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,80,2048,256,-0.004797333333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,2048,64,-0.0028255148331355006,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,16,0.18630916178886409,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,16,128,-0.0024801190060372846,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,96,16,128,-0.0006966095197640243,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,32,80,-0.0028471241351796755,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,4,32,-0.0035293333333333335,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,64,8,-0.010002833333333332,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,16,64,-0.002514666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,20,20,-0.004844833333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",32,64,64,-0.003133,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,50,64,-0.003231039451973424,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,4,80,-0.0023743119285197776,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,20,128,64,-0.0024166628755920025,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,8,16,50,0.0006616994322062321,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,2048,256,0.013137511286799963,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,80,128,20,-0.002644922913490585,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,96,32,16,-0.0027224999999999997,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,8,80,256,-0.003264333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",100,64,20,-0.002706,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,20,256,-0.004513166666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,128,256,-0.004227666666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,128,-0.0022949716511629845,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,20,128,-0.002535152241674005,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,64,32,-0.0033615067151735677,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",100,16,256,-0.003750025949121332,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,100,16,50,-0.003495814546013899,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,128,20,-0.0033405821451300693,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,16,128,-0.0023408333333333332,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,50,16,-0.004523,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,80,2048,64,-0.0033631666666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,16,-0.0026123333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,4,-0.008000166666666668,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,256,0.01320454478263855,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,2048,256,-0.003551486337662095,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,96,128,64,-0.0024764870032308343,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,20,100,100,-0.0027814999999999997,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,2048,256,-0.002532,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,2048,20,-0.0024265000000000003,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,2048,4,-0.003037,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,2048,256,-0.002608166666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,128,256,-0.0025373333333333333,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,2048,16,-0.0025535,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,256,32,8,-0.0081575,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",64,16,50,-0.0035139999999999998,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",32,16,20,-0.0038586666666666665,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,16,32,80,-0.0039245,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",32,2048,128,-0.0035645,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,2048,16,-0.0022673333333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,2048,64,-0.002477333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,4,2048,8,-0.008379,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,96,2048,16,0.0030839717774426845,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,8,2048,8,0.011649493569162596,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,8,2048,20,0.005319243587632805,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,8,2048,4,0.005922705207809922,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,96,2048,50,-0.0015365460078530567,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,80,256,-0.001800166666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,16,256,-0.00383,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,80,32,-0.0036161666666666664,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,64,128,64,-0.003605,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,64,64,-0.006502333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,4,2048,16,0.007111998730959357,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,4,0.008812150569140087,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,96,8,20,-0.011174166666666666,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , , ,16,16,4,-0.00327,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,8,256,-0.005573166666666666,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,20,20,-0.0072004999999999994,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,50,-0.006834000000000001,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,4,8,0.001875228113963823,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,8,0.011820793151855469,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,8,4,256,-0.0025531666666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,80,80,64,-0.003382666666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,50,4,20,-0.005377333333333334,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,80,8,-0.012611833333333334,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,2048,4,-0.008564,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,32,8,80,-0.005,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,16,128,-0.0037146666666666665,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,256,8,64,-0.0054139999999999995,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,256,80,256,-0.0034733333333333335,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,50,32,80,-0.0034909999999999997,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,50,128,-0.002403541767735604,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,32,80,32,-0.003345619672336531,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,8,0.15001547483815655,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,8,0.008415701849116886,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,32,80,-0.002845432159597995,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,96,8,80,-0.002775467393731877,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",64,80,16,-0.003606252399028263,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,80,64,256,-0.004654666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",100,128,50,-0.0041115,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,16,128,128,-0.0039275,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,2048,8,-0.008197666666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,2048,16,-0.0025981666666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,256,128,80,-0.002296862213827716,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,2048,4,0.0,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",80,2048,128,-0.0026905482594854133,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,2048,256,-0.0023194849491119385,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,96,80,80,-0.0028989291576770435,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,20,80,32,-0.005102166666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,32,2048,8,-0.016169166666666665,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,8,4,-0.020850833333333336,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,8,-0.002965666666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,32,8,-0.008296333333333334,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,4,8,0.0046511305728100805,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",32,128,4,-0.0032369810067162507,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,128,64,-0.006628999999999999,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,32,128,-0.0042225,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",100,2048,256,-0.0030073333333333336,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,80,100,-0.004261333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,20,-0.0020898333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,100,2048,32,-0.0035049647126641523,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,256,128,8,-0.00255772173311635,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,16,32,-0.0034117624163627625,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,96,50,50,-0.002529333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,2048,8,-0.005741666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",256,8,8,-0.014571333333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,50,32,32,-0.0023793333333333336,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,8,128,8,-0.003071833333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,4,256,0.008560636145750398,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,100,32,50,-0.003314374058431642,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,2048,20,-0.004743666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,256,50,32,-0.0024285,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,100,50,100,-0.004763166666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,20,50,128,-0.0017416666666666668,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,256,2048,32,-0.0034210000000000004,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,2048,8,0.12451920415100999,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , , ,4,32,256,-0.004292268467224858,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,128,256,-0.0031858553895190247,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",64,8,256,-0.004509814083576202,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,96,4,4,0.009192730105391903,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,8,20,256,-0.003596666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,96,80,16,-0.004827333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,80,50,16,-0.006711333333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,80,16,8,-0.011253666666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc), ,20,32,16,-0.004938333333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,64,8,128,-0.002570425727936171,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,32,32,128,-0.0028438207258277186,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",100,16,8,-0.001941190925343681,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,128,20,-0.002918790550885056,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,4,128,-0.0022082147713326844,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,8,50,50,-0.0016870602830543473,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,8,50,50,-0.0035390181119818974,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",16,2048,4,-0.0033529999999999996,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,2048,8,-0.002979833333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,2048,256,-0.0018123333333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",4,2048,20,-0.0028451666666666664,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,2048,8,-0.002652,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,4,32,-0.002592833333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",96,2048,4,-0.011206833333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",100,80,8,-0.008375500000000001,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+ , , ,64,4,256,-0.0022675,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,64,8,32,-0.003689666666666666,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,8,16,80,-0.0029911928985832635,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc),#pragma clang loop(m2) pack array(B) allocate(malloc), ,96,64,256,-0.004595333333333334,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+#pragma clang loop(j2) pack array(A) allocate(malloc), , ,256,80,20,-0.004791166666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",8,100,128,-0.0018378333333333335,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ ,#pragma clang loop(m2) pack array(B) allocate(malloc),"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",50,2048,50,-0.003559,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+ , ,"#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)",20,32,50,-0.0025195,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei

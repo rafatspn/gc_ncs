@@ -1,0 +1,378 @@
+p0,p1,p2,p3,p4,p5,p6,p7,p8,objective,actually_measured,lookahead,model_name,acquisition_function
+64,100, , ,96,2,10,scatter,cores,-1.0123066666666667,True,-1,initial_sampling,Random_Sampling
+128,2000,#pragma clang loop unrolling full,#pragma omp parallel for,256,128,200,none,threads,-1.3081833333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,2000,#pragma clang loop unrolling full, ,256,128,200,explicit,sockets,-1.3165233333333333,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+2,200,#pragma clang loop unrolling full, ,64,4,40,disabled,sockets,-4.469145,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,2000,#pragma clang loop unrolling full,#pragma omp parallel for,256,128,200,balanced,cores,-1.3369633333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,1000,#pragma clang loop unrolling full, ,96,256,100,none,cores,-1.295415,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,2000,#pragma clang loop unrolling full, ,256,128,200,explicit,threads,-1.3082033333333334,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,1000,#pragma clang loop unrolling full,#pragma omp parallel for,16,128,40,explicit,sockets,-1.1197616666666665,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,2000,#pragma clang loop unrolling full, ,256,128,200,explicit,sockets,-1.3130899999999999,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,2000, ,#pragma omp parallel for,256,128,200,explicit,sockets,-1.3619783333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,2000,#pragma clang loop unrolling full,#pragma omp parallel for,256,128,200,explicit,cores,-1.299158333333333,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+128,1280, ,#pragma omp parallel for,32,96,40,scatter,threads,-1.2457083333333332,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,2000,#pragma clang loop unrolling full,#pragma omp parallel for,256,128,200,compact,sockets,-1.2265016666666666,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+96,1000,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,10,explicit,threads,-1.1859650000000002,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,2000, , ,256,128,100,none,cores,-1.48369,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,2000, ,#pragma omp parallel for,96,128,200,compact,cores,-1.1814483333333332,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,2000,#pragma clang loop unrolling full, ,96,128,200,none,sockets,-1.4208033333333334,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,96,256,100,none,cores,-1.448295,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+8,2000, , ,96,128,128,none,cores,-1.118895,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,2000, , ,16,2,128,none,cores,-1.483335,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,2000, , ,96,128,100,none,cores,-1.3481699999999999,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,1000, ,#pragma omp parallel for,96,128,200,compact,cores,-1.1466816666666666,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,2000,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,100,none,sockets,-1.367735,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,2000, ,#pragma omp parallel for,96,128,200,scatter,sockets,-1.4070066666666667,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,1600, ,#pragma omp parallel for,32,128,20,scatter,threads,-1.3696816666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,2000,#pragma clang loop unrolling full, ,96,128,100,explicit,cores,-1.3187983333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,1000, ,#pragma omp parallel for,96,128,200,compact,cores,-1.219531666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,2000,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,200,scatter,cores,-1.5123683333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,1600, ,#pragma omp parallel for,96,128,200,none,cores,-4.485618333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,128,100,disabled,cores,-1.4820400000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,100,#pragma clang loop unrolling full,#pragma omp parallel for,256,128,100,explicit,cores,-1.0652766666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,64,128,100,explicit,cores,-1.5250050000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1280,#pragma clang loop unrolling full,#pragma omp parallel for,256,128,100,explicit,cores,-1.5036250000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,64,128,100,none,cores,-1.4154433333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,128,200,none,sockets,-1.4821716666666667,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,400, ,#pragma omp parallel for,96,128,100,explicit,cores,-1.40337,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,4,128,100,none,cores,-1.5089183333333331,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,2000, , ,96,128,100,explicit,cores,-1.512755,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000, ,#pragma omp parallel for,256,128,100,explicit,sockets,-1.2981933333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,128,128,100,scatter,cores,-1.5197533333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,2000,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,100,none,sockets,-1.2958049999999999,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,1000, ,#pragma omp parallel for,16,128,100,explicit,cores,-1.4947216666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,200,explicit,cores,-1.6132383333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,2000,#pragma clang loop unrolling full,#pragma omp parallel for,64,128,100,none,cores,-1.4686216666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,2000,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,100,compact,cores,-1.4872266666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,200,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,100,none,cores,-1.2193416666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,100,none,cores,-1.5635983333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1280, ,#pragma omp parallel for,96,128,100,explicit,cores,-1.5272766666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,640,#pragma clang loop unrolling full,#pragma omp parallel for,32,128,100,none,cores,-1.4848466666666669,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,4,128,100,none,cores,-1.4113416666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,16,128,100,explicit,cores,-1.3663444180544424,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,200,balanced,cores,-0.44308476636388966,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,128,100,disabled,cores,-1.366039012774579,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,10,compact,cores,-1.232454685532982,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,128,128,10,none,cores,-1.2346228323668191,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,1000, , ,256,128,100,none,cores,-1.2317751832340624,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,100,#pragma clang loop unrolling full, ,128,256,128,disabled,sockets,-5.707160574099905e-17,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+192,1000, , ,128,128,100,none,cores,-1.2372281763705193,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,128,160,explicit,sockets,-1.4286366666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,80,explicit,sockets,-1.448135,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,128,80,disabled,sockets,-1.54899,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,40,explicit,cores,-1.5336949999999998,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,128,200,explicit,sockets,-1.4830816666666669,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,128,100,compact,cores,-1.259230198531636,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,40,explicit,cores,-1.2891883678293112,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,20,explicit,cores,-1.2865482223645888,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,20,explicit,cores,-1.2866093765814903,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,64,explicit,threads,-1.2889106631801739,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,200,#pragma clang loop unrolling full,#pragma omp parallel for,128,256,80,explicit,threads,-8.104643730523351e-17,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000, , ,256,128,10,explicit,sockets,-1.287441976227585,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,200, ,#pragma omp parallel for,256,256,200,explicit,threads,-1.1461533333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,256,160,explicit,threads,-1.5478466666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,explicit,cores,-1.4172266666666669,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1280,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,100,explicit,sockets,-1.5709316666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,100,#pragma clang loop unrolling full, ,256,256,200,explicit,cores,-1.0849183333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,10,explicit,threads,0.04568004229804501,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,100,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,explicit,cores,-1.1818645265319248,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,96,256,200,explicit,sockets,-1.1493229575173822,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,8,2,200,explicit,sockets,-1.155335636852324,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,100,#pragma clang loop unrolling full,#pragma omp parallel for,64,256,128,disabled,threads,3.7870354862612593e-16,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,128,256,200,explicit,sockets,-1.1529690647247064,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,100,#pragma clang loop unrolling full, ,128,256,80,disabled,sockets,0.12880661638298108,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,100,#pragma clang loop unrolling full, ,64,256,80,balanced,threads,-1.3915516666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,100,#pragma clang loop unrolling full,#pragma omp parallel for,64,256,80,explicit,sockets,-1.1568766666666668,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,100,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,80,disabled,sockets,-1.1070766666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,200,#pragma clang loop unrolling full,#pragma omp parallel for,128,256,80,explicit,cores,-1.18307,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,400,#pragma clang loop unrolling full, ,128,256,80,explicit,sockets,-1.39344,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,explicit,sockets,-1.061006581724122,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,128,256,200,explicit,sockets,-1.50545,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,explicit,sockets,-1.5846116666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,8,256,160,explicit,sockets,-1.4858833333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,64,256,128,explicit,sockets,-1.5520749999999996,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,40,explicit,sockets,-1.5366250000000001,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,explicit,threads,-1.146172496841757,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,256,200,explicit,threads,-1.1478709417268314,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,explicit,threads,-1.1463060763233037,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,256,200,explicit,cores,-1.148465106652793,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,256,160,explicit,threads,-1.150235936494305,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,256,200,explicit,sockets,-1.1476460600374383,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,64,256,200,explicit,sockets,-1.531386666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,64,explicit,cores,-1.5443799999999996,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,explicit,sockets,-1.5823150000000001,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,64,256,160,explicit,sockets,-1.50439,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,160,explicit,cores,-1.5663216666666664,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,64,256,200,explicit,sockets,-1.2008153099633034,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,64,explicit,sockets,-1.199859575026847,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,200,none,cores,-1.2751209765032463,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,explicit,sockets,-1.198671299138883,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,explicit,sockets,-1.2020205418877767,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,explicit,sockets,-1.1982187442296022,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,128,256,64,explicit,sockets,-1.2030300858845293,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,explicit,sockets,-1.5150649999999999,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,20,explicit,sockets,-1.5382433333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,explicit,cores,-1.4625683333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,2,256,160,explicit,sockets,-1.472815,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,256,200,explicit,sockets,-1.4336650000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,200,#pragma clang loop unrolling full,#pragma omp parallel for,32,256,160,disabled,threads,0.07630120492716018,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,80,explicit,sockets,-1.2313594294337236,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,200,#pragma clang loop unrolling full,#pragma omp parallel for,64,2,128,disabled,threads,0.05433249387260178,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,16,256,200,explicit,cores,-1.1901708035527108,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,100,#pragma clang loop unrolling full, ,128,256,80,disabled,sockets,0.07012325464751708,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,800, ,#pragma omp parallel for,256,256,100,explicit,sockets,-1.3719709114413376,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,64,256,200,explicit,cores,-1.1528648660261744,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,2000, ,#pragma omp parallel for,96,256,100,none,sockets,-1.46671,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,2000, , ,96,256,100,none,threads,-1.1650133333333335,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,2000,#pragma clang loop unrolling full, ,96,256,200,explicit,threads,-1.3293549999999998,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+128,2000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,none,cores,-1.3973233333333335,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+8,1280, , ,64,96,80,explicit,threads,-1.1363533333333333,True,0,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,100, , ,128,2,80,disabled,sockets,0.04004661200068794,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,128,256,200,explicit,sockets,-1.5166983333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,32,256,100,explicit,sockets,-1.4839166666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,explicit,sockets,-1.5336233333333336,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,256,100,explicit,sockets,-1.3844166666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,explicit,threads,-1.4968666666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,100,#pragma clang loop unrolling full,#pragma omp parallel for,64,256,160,balanced,threads,0.057239720364427336,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,256,128,explicit,threads,-1.1737522847234345,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,disabled,cores,-1.1503810317441783,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,200,#pragma clang loop unrolling full,#pragma omp parallel for,64,256,128,disabled,threads,0.1623233904683388,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,200,#pragma clang loop unrolling full,#pragma omp parallel for,64,2,128,disabled,threads,0.09461822713065071,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,disabled,cores,-1.150392175692495,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,2000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,disabled,cores,-1.0835998063337087,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,2000, ,#pragma omp parallel for,96,256,160,explicit,threads,-4.470251666666667,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+96,400, , ,2,8,100,balanced,threads,-1.3947216666666666,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+48,400,#pragma clang loop unrolling full, ,96,256,200,explicit,cores,-1.49067,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,64,explicit,cores,-1.4657783333333336,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full, ,96,64,10,disabled,sockets,-1.570833333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1600,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,compact,cores,-1.6835283333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,20,none,sockets,-1.5625716666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,10,none,sockets,-1.4475016666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,128,none,sockets,-1.5103516666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,100,#pragma clang loop unrolling full, ,256,256,200,none,threads,-1.15666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,160,none,cores,-1.1140889306778305,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,160,none,cores,-1.1141488571877325,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,96,96,20,disabled,sockets,0.025970727022342203,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full, ,96,256,200,explicit,cores,-0.7879492706502008,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,160,none,cores,-1.1143345406188103,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,none,sockets,-1.1177099552210024,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,8,200,none,sockets,-1.1185068078181344,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,none,sockets,-1.5001050000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,4,200,compact,sockets,-1.4921916666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,200,explicit,sockets,-1.548565,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,160,explicit,threads,-1.4705316666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,4,200,explicit,sockets,-1.444805,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,160,explicit,cores,-1.1617547269338502,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,1000, , ,256,128,200,none,cores,1.8388755756629394,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,160,explicit,threads,-1.1619965413278845,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,100,#pragma clang loop unrolling full, ,256,128,200,none,cores,-1.0127693647281575,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,96,160,none,cores,-1.0100517214727478,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,96,200,compact,cores,-1.0138552777760663,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,64,128,160,none,cores,-1.020161763021623,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,128,160,none,cores,-1.4804033333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,128,200,none,threads,-1.3980933333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,128,200,none,cores,-1.3288266666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,96,200,none,cores,-1.2995083333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,128,200,none,cores,-1.5111566666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,128,200,none,cores,-1.0906914221410489,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,32,200,none,cores,-1.085962309257411,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,128,200,none,cores,-1.0840265589806568,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,4,200,none,cores,-1.0879487121653446,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,200,#pragma clang loop unrolling full,#pragma omp parallel for,32,2,128,disabled,threads,0.0314088138529591,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,96,160,none,cores,-1.0926648926042346,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,none,cores,-1.0845489969197348,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,8,200,none,cores,-1.6555583333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,128,200,none,cores,-1.6188233333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,8,200,none,cores,-1.7209816666666669,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,compact,cores,-1.7366616666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,128,200,compact,cores,-2.00976,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,400,#pragma clang loop unrolling full,#pragma omp parallel for,32,256,200,balanced,threads,0.0007500179781345651,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+64,1000, , ,128,128,200,none,cores,1.1109990262279834,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,200,none,threads,-1.1605152073145746,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,256,200,compact,cores,-1.0817117204503255,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,8,200,none,cores,-1.080439640027181,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,4,200,none,cores,-1.7106033333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,8,200,none,cores,-1.5993466666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,128,200,none,cores,-1.5841933333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,128,2,200,none,threads,-1.625728333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,64,200,none,cores,-1.6899633333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,scatter,cores,-1.1552599209175582,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,disabled,cores,-1.1539981219656725,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,disabled,cores,-1.1544660279976309,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,scatter,cores,-1.1548213653530501,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,disabled,cores,-1.1540093635985242,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,compact,cores,-1.1557059225914548,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,compact,cores,-1.88323,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,96,200,explicit,sockets,-1.5220900000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,200,disabled,cores,-1.7323916666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,64,200,compact,sockets,-1.7473633333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,64,256,200,disabled,cores,-1.5934316666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,96,128,200,disabled,cores,-1.0745901574906653,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,4,200,explicit,cores,-1.1789948467953764,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,64,200,explicit,cores,-1.1774399450239448,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,16,200,explicit,threads,-1.1776607368442085,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,explicit,sockets,-1.1778591008786847,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,200,explicit,cores,-1.1773176216638412,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,96,200,explicit,cores,-1.5074550000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,explicit,sockets,-1.5634916666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,none,threads,-1.5181133333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,128,256,200,explicit,cores,-1.60939,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,4,200,explicit,sockets,-1.52442,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,compact,threads,-1.1958838028311618,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,2000, ,#pragma omp parallel for,96,128,200,none,threads,-0.5128373661634568,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,none,cores,-1.1957140760925131,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,96,96,200,none,sockets,-1.145062204463962,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,96,128,200,compact,sockets,-1.145500185779413,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,2,128,200,compact,sockets,-1.1478112711968151,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000, ,#pragma omp parallel for,96,256,200,none,sockets,-0.495107751339674,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,1000, ,#pragma omp parallel for,96,128,200,compact,sockets,-1.7488216666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,96,4,200,none,sockets,-1.6260166666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,96,4,200,none,threads,-1.600248333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,4,256,200,none,sockets,-1.6468333333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,200,balanced,cores,-1.6286716666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,none,threads,-1.2001159302264455,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,4,200,none,cores,-1.2001726394363643,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,compact,cores,-1.2002983413724324,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,none,cores,-1.1998706392394716,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,256,200,scatter,threads,-1.2006835942717005,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,none,threads,-1.200277731205319,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,4,200,compact,cores,-1.810031666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,64,200,explicit,sockets,-1.6318983333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,128,256,200,none,cores,-1.7236599999999997,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,2,16,200,explicit,sockets,-1.6007333333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,2,200,balanced,sockets,-1.852331666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,200,explicit,cores,-1.2130337167933476,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,256,200,disabled,cores,-1.2140624535833215,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,200,disabled,cores,-1.213780946387853,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,256,200,disabled,cores,-1.2140950884971171,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,2,200,disabled,cores,-1.2137989485023981,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,2,200,disabled,cores,-1.2145062862592513,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,128,2,200,explicit,cores,-1.5033983333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,disabled,cores,-1.6219599999999998,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,128,200,none,cores,-1.5683466666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,256,200,balanced,threads,-1.690645,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full,#pragma omp parallel for,256,4,200,explicit,cores,-1.59663,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,4,200,none,sockets,-1.2293206283589484,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,128,2,200,none,sockets,-1.2295897210719045,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+4,2000, ,#pragma omp parallel for,256,256,100,none,cores,-4.907445863640179e-05,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,1000,#pragma clang loop unrolling full, ,256,8,200,none,sockets,-1.2294490879592965,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,256,100,scatter,cores,-1.157519677285161,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,128,256,10,none,cores,-1.1590588784145666,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,1000, , ,256,96,160,none,cores,0.6727503691157102,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000, ,#pragma omp parallel for,256,256,100,none,sockets,-1.5180549999999997,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,256,100,none,cores,-1.6080766666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,256,10,none,cores,-1.5390033333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,256,200,compact,cores,-1.6075216666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,256,20,none,cores,-1.5545483333333332,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,2,128,none,cores,-1.1996681165478833,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,2,160,none,cores,-1.198756993338004,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,2,200,none,cores,-1.197840263641839,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,16,200,none,cores,-1.1980182877859495,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,256,200,none,cores,-1.1978003343553456,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,128,200,none,cores,-1.1982146931568591,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,2000,#pragma clang loop unrolling full,#pragma omp parallel for,96,128,200,none,cores,-0.05871289106860128,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+32,2000, , ,96,128,40,none,cores,-1.232045,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+48,1000, , ,256,128,200,none,threads,-1.2524916666666668,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+64,100, , ,256,128,200,compact,cores,-1.160995,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+64,1000,#pragma clang loop unrolling full, ,256,128,200,none,cores,-1.0591716666666666,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+64,1000, , ,256,128,160,none,cores,-1.3754016666666669,True,0,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,1000, ,#pragma omp parallel for,256,8,200,none,cores,-1.1979623683367235,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,64,96,200,none,cores,-1.1932622312918961,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,1000, , ,256,96,200,none,cores,1.1121013719791435,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,100, ,#pragma omp parallel for,256,128,200,none,cores,-1.1914911933015164,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,160,none,cores,-1.7332333333333336,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,100, , ,256,96,200,none,cores,-1.3207116666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,64,128,200,none,cores,-1.6442666666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,64,200,none,cores,-1.5555166666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,160,none,cores,-1.6646533333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,32,200,none,cores,-1.1882508760055543,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,128,128,200,none,cores,-1.1904743684209516,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,64,128,200,none,cores,-1.189787684913881,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,100, ,#pragma omp parallel for,256,128,200,none,cores,0.41325017367489636,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000, , ,256,128,160,none,cores,-1.188981576834177,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000, , ,256,64,128,none,cores,0.4438570932485071,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000, ,#pragma omp parallel for,256,128,200,compact,cores,-1.1529426386080814,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,128,160,compact,cores,-1.505955,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,128,96,200,none,cores,-1.8302333333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,128,64,200,none,cores,-1.5220666666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,96,200,none,cores,-1.5053600000000003,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, ,#pragma omp parallel for,256,128,200,none,cores,-1.6640316666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,16,200,none,cores,-1.1738682336382453,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,96,160,none,cores,-1.174360146374574,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,4,200,none,cores,-1.1758922210423053,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,1000, , ,256,64,200,none,cores,0.1732591449352813,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+64,1000,#pragma clang loop unrolling full, ,256,128,200,none,cores,1.1088954045774142,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,1000, , ,256,4,200,none,cores,-1.1759056366180152,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,1000, , ,256,96,200,none,cores,-1.2787199999999999,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000, , ,256,128,200,none,cores,-1.3531666666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,200,none,cores,-1.5677916666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000,#pragma clang loop unrolling full, ,256,128,200,none,cores,-1.3018,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000,#pragma clang loop unrolling full, ,256,96,200,none,cores,-1.3113499999999998,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000,#pragma clang loop unrolling full, ,256,128,200,none,cores,-1.1435587294637628,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,1000,#pragma clang loop unrolling full, ,32,256,64,compact,threads,0.0,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,1000,#pragma clang loop unrolling full, ,256,128,200,none,cores,-1.143548762681447,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,100, , ,256,128,200,none,cores,0.5743329972969871,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+32,1000,#pragma clang loop unrolling full, ,256,128,200,none,cores,-1.1369017612043795,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000, , ,256,64,200,none,cores,-1.0981374957772942,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000, , ,256,32,200,none,cores,-1.100219228138504,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000, ,#pragma omp parallel for,256,128,200,none,cores,-1.3284866666666666,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+64,1000, ,#pragma omp parallel for,256,64,128,none,cores,-1.1788216666666669,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+64,1000, , ,256,64,160,compact,cores,-1.2507549999999998,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+192,100, , ,256,64,80,none,cores,-1.10627,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+256,100, ,#pragma omp parallel for,2,96,40,balanced,sockets,-1.3526283333333333,True,0,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,1000, , ,256,64,200,none,cores,-1.0982197229733612,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000,#pragma clang loop unrolling full, ,256,96,200,none,cores,-1.101614198947141,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000,#pragma clang loop unrolling full, ,128,96,200,none,cores,-1.3519599999999998,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000,#pragma clang loop unrolling full, ,256,96,200,none,cores,-1.2629266666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000, , ,256,32,200,none,cores,-1.3452716666666664,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,1000, , ,256,128,200,none,cores,-1.2650866666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000, , ,256,128,160,none,cores,-1.3367616666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,1000, , ,256,128,200,none,cores,-1.1320265679786985,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,1000, , ,256,96,200,none,cores,-1.1319581932115967,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,1000, , ,256,96,200,none,cores,-1.1319576033359706,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,1000, , ,128,96,200,none,cores,-0.33588633872832396,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+256,1000,#pragma clang loop unrolling full, ,256,128,200,none,cores,-1.1312054867350056,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,100, , ,256,16,200,none,cores,0.023149837623350322,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+96,1000, , ,256,96,128,none,sockets,0.039216315628374965,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+4,1000, , ,256,64,200,none,cores,-1.1243859806718581,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,1000, , ,256,96,200,none,cores,-1.39166,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,1000, , ,256,128,200,none,cores,-1.3019566666666669,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,1000, , ,256,128,200,none,cores,-1.3035733333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,1000, , ,256,128,160,none,cores,-1.3535783333333333,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,1000, , ,256,128,200,none,cores,-1.2243866666666667,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,1000, , ,256,96,200,none,cores,-1.1106752530157138,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,1000, , ,256,128,200,none,cores,-1.109237947434413,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,1000, , ,256,96,200,none,cores,-1.1106926314136367,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,1000, , ,256,128,200,none,cores,-1.1085066060730149,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,1000, ,#pragma omp parallel for,128,128,200,none,cores,0.3527892546351421,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+64,1000, ,#pragma omp parallel for,128,128,200,none,cores,0.4790589964264818,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+96,1000, , ,256,96,200,none,cores,-1.1102071795819737,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,1000, , ,128,64,160,none,cores,0.6396993359619344,False,1,GaussianProcessRegressor(kernel=RBF(length_scale=1)),ei
+128,1000, , ,256,128,200,none,cores,-1.4234516666666668,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000, , ,256,128,160,none,cores,-1.2991599999999999,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+128,1000, , ,256,128,160,none,cores,-1.29709,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+16,1000, , ,256,128,200,none,cores,-0.68735,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+4,1000, , ,256,64,200,none,cores,-2.24485,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,128,none,cores,-1.0894199650405199,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,96,200,none,cores,-1.0809579355518253,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000, , ,256,128,200,none,cores,-1.0801886375976133,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,200, ,#pragma omp parallel for,64,128,200,none,cores,0.07127079260920208,False,1,"GaussianProcessRegressor(kernel=Matern(length_scale=1, nu=1.5))",ei
+256,1000, , ,128,128,200,none,cores,-1.0828111150910706,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,1000, ,#pragma omp parallel for,256,128,200,none,cores,-1.07821585333304,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000, , ,128,128,200,none,cores,-1.270895,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,200,none,cores,-1.5363833333333334,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,1000, , ,256,128,200,none,cores,-1.4875399999999999,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+8,1000, , ,256,128,200,none,cores,-1.1906450000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000, , ,256,128,200,none,cores,-1.3693033333333335,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+32,1000, , ,256,128,200,none,cores,-1.0892304491836455,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+96,1000, , ,256,96,200,none,cores,-1.0915354174881229,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,1000, ,#pragma omp parallel for,256,128,200,none,cores,-1.0908617907107065,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+192,1000, , ,256,128,200,none,cores,-1.0866820840882383,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+64,1000, , ,256,96,200,none,cores,0.8606506183968443,False,1,"GaussianProcessRegressor(kernel=RationalQuadratic(alpha=1, length_scale=1))",ei
+48,1000, , ,256,128,200,none,cores,-1.0886128003867301,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+48,1000, , ,256,128,200,none,cores,-1.0704588931513062,False,1,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+2,1000, , ,256,128,200,none,cores,-4.659821666666666,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,200,none,cores,-1.7994266666666665,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,160,none,cores,-1.4842000000000002,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,128,160,none,cores,-1.5653499999999998,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
+256,1000, , ,256,32,200,none,cores,-1.5573249999999998,True,0,GaussianProcessRegressor(kernel=DotProduct(sigma_0=1) + WhiteKernel(noise_level=1)),ei
