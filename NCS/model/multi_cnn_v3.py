@@ -122,7 +122,7 @@ class FeatureExtractor(nn.Module):
 
 def train_model(model, train_loader, num_epochs=30, device="cpu"):
     global training_time
-    device="cpu"
+    # device="cpu"
     optimizer = optim.Adam(model.parameters())
     criterion = nn.CrossEntropyLoss()  
     model.to(device)
@@ -150,7 +150,7 @@ def train_and_evaluate_models(data, token_dict, out_path, out_file, device="cpu"
     models = {}
     label_encoders = {}
     predictions = {}
-    device="cpu"
+    # device="cpu"
     for label in labels:
         print(f"Training model for {label}")
         
