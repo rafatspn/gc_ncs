@@ -3,8 +3,10 @@
 ## Setup / Install
 
 The repository includes Python scripts that are designed for use with Python 3.9+.
-You can install the requisite packages via `pip install -r requirements.txt` (see [requirements.txt](./requirements.txt))
-Alternatively, using Anaconda you can create a new environment for this project and install all packages via `conda create -f environment.yml` (see [environment.yml](./environment.yml))
+
+You can install the requisite packages via `pip install -r requirements.txt` (see [requirements.txt](./requirements.txt)).
+
+Alternatively, using Anaconda you can create a new environment for this project and install all packages via `conda create -f environment.yml` (see [environment.yml](./environment.yml)).
 
 ---
 
@@ -23,7 +25,7 @@ Move it into the [Extract\_A1\_Here](./Extract_A1_Here) directory and unzip it, 
 
 ### A3.1 : Remap to Search Space
 
-Change directories to [Data](./Data) and follow the instructions in the [Data REAMDE](./Data/README.md).
+Change directories to [Data](./Data) and follow the instructions in the [Data README](./Data/README.md).
 
 ### A3.2 : Perform Analyses
 
